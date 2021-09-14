@@ -5,7 +5,7 @@ To control our Nikon Ti2 microscope we use a custom software, which also require
 This software is a substitution for Nikon's $25K NIS-Elements.
 
 I inhereted the software from Fred Chang, a former PhD student in Kleckner Lab.
-
+------------------
 
 Useful commands:
 
