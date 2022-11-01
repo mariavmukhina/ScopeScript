@@ -1,10 +1,10 @@
-# Software for Microscope Control
+# ScopeScript: Fast Matlab Microscope with Custom Hardware Controller
 
-To control our Nikon Ti2 microscope we use a custom software, which also requires our custom [controller](https://github.com/mariavmukhina/Custom_TTL_Controller_for_Microscope). It is written in Matlab environment and utilizes [µManager](https://micro-manager.org/) to connect to some of the hardware.
+ScopeScript is a Matlab package for the control of microscopy setup. Custom hardware [controller](https://github.com/mariavmukhina/Custom_TTL_Controller_for_Microscope) is at the heart of this setup for the fastest acquisition in 4D. ScopeScript also includes software for PI Nanocube nanomanipulator to seamlessly integrate image acquisition with mechanical stimulation of the sample with nanoscale precision. 
 
 This software is a substitution for Nikon's $25K NIS-Elements.
 
-I inhereted the software from Fred Chang, a former PhD student in Kleckner Lab.
+I inhereted the first version of the package from Frederick Chang, a former PhD student in Kleckner Lab at Harvard University.
 
 ------------------
 
