@@ -4,6 +4,9 @@ ScopeScript is a Matlab package for the control of microscopy setup. Custom hard
 
 This software is a substitution for Nikon's $25K NIS-Elements.
 
+Have a question? Get in touch!
+You can email me at mmukhina@fas.harvard.edu, or raise a support issue.
+
 I inhereted the first version of the package from Frederick Chang, a former PhD student in Kleckner Lab at Harvard University.
 
 ------------------
