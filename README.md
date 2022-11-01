@@ -11,6 +11,15 @@ I inhereted the first version of the package from Frederick Chang, a former PhD 
 
 ------------------
 
+## Installation
+
+ScopeScript was tested with Matlab 2017a and requires Parallel Computing Toolbox and Statistics and Machine Learning Toolbox. The latter is only needed for camera calibration. In addition, ScopeScript uses uManager 1.4 (included with the package), Nikon Ti-2 SDK (can be obtained at nisdk.net), PI (Physik Instrumente) MATLAB Driver GCS2 for the controller of nanomanipulator Nanocube (optional).
+
+Before the first run, (1) register Ti2 ActiveX control in Windows ()
+
+## ScopeScript Reference
+
+
 Useful commands:
 
 initMicroscope           % boot up the system
