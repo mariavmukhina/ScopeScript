@@ -1,6 +1,6 @@
 # ScopeScript: Fast Matlab Microscope with Custom Hardware Controller
 
-ScopeScript is a Matlab package for the control of microscopy setup. Custom hardware [controller](https://github.com/mariavmukhina/Custom_TTL_Controller_for_Microscope) is at the heart of this setup for the fastest acquisition in 4D. ScopeScript also includes software for PI Nanocube nanomanipulator to seamlessly integrate image acquisition with mechanical stimulation of the sample with nanoscale precision. 
+ScopeScript is a Matlab package for the control of microscopy setup. Custom hardware [controller](https://github.com/mariavmukhina/Custom_TTL_Controller_for_Microscope) is at the heart of this setup for the fastest acquisition in 4D. ScopeScript communicates with Nikon Ti-2 microscope through Matlab-only device adapter and uses uManager device adapters to connect to all periphery devices. ScopeScript also includes software for PI Nanocube nanomanipulator to seamlessly integrate image acquisition with mechanical stimulation of the sample with nanoscale precision. 
 
 This software is a substitution for Nikon's $25K NIS-Elements.
 
@@ -14,8 +14,6 @@ I inhereted the first version of the package from Frederick Chang, a former PhD 
 ## Installation
 
 ScopeScript was tested with Matlab 2017a and requires Parallel Computing Toolbox and Statistics and Machine Learning Toolbox. The latter is only needed for camera calibration. In addition, ScopeScript uses uManager 1.4 (included with the package), Nikon Ti-2 SDK (can be obtained at nisdk.net), PI (Physik Instrumente) MATLAB Driver GCS2 for the controller of Nanocube nanomanipulator (optional).
-
-ScopeScript can be used with any light sources/cameras supported by uManager. The current version 
 
 **Before the first run**, (1) register Nikon Ti2 ActiveX control in Windows:
 ```
