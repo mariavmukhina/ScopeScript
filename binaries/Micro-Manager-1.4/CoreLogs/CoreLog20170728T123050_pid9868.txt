@@ -1,0 +1,142 @@
+2017-07-28T12:30:50.113715 tid5176 [IFO,LogManager] Enabled primary log file C:\Program Files\Micro-Manager-1.4\CoreLogs\CoreLog20170728T123050_pid9868.txt
+2017-07-28T12:30:50.113715 tid5176 [IFO,App] User: Owner
+2017-07-28T12:30:50.113715 tid5176 [IFO,App] Host: DESKTOP-44A5HKU
+2017-07-28T12:30:50.113715 tid5176 [IFO,App] MM Studio version: 1.4.22
+2017-07-28T12:30:50.113715 tid5176 [IFO,App] MMCore version 8.1.0
+2017-07-28T12:30:50.113715 tid5176 [IFO,App] Device API version 65, Module API version 10
+2017-07-28T12:30:50.113715 tid5176 [IFO,App] Operating System: Windows NT (unknown) (amd64) 6.2
+2017-07-28T12:30:50.113715 tid5176 [IFO,App] JVM: Java HotSpot(TM) 64-Bit Server VM, version 1.6.0_31, 64-bit
+2017-07-28T12:30:50.113715 tid7852 [IFO,App] Added URL to system class loader: file:/C:/Program%20Files/Micro-Manager-1.4/mmplugins/
+2017-07-28T12:30:50.113715 tid7852 [IFO,App] Added URL to system class loader: jar:file:C:\Program Files\Micro-Manager-1.4\mmplugins\Big.jar!/
+2017-07-28T12:30:50.144968 tid7852 [IFO,App] Added URL to system class loader: jar:file:C:\Program Files\Micro-Manager-1.4\mmplugins\DataBrowser.jar!/
+2017-07-28T12:30:50.687915 tid7852 [IFO,App] Added URL to system class loader: jar:file:C:\Program Files\Micro-Manager-1.4\mmplugins\PixelCalibrator.jar!/
+2017-07-28T12:30:50.734793 tid7852 [IFO,App] Added URL to system class loader: jar:file:C:\Program Files\Micro-Manager-1.4\mmplugins\Recall.jar!/
+2017-07-28T12:30:50.750420 tid7852 [IFO,App] Installing plugin org.micromanager.browser.Data_Browser...
+2017-07-28T12:30:50.750420 tid7852 [IFO,App] Error: Plugin [org.micromanager.browser.Data_Browser] has no menuName field
+2017-07-28T12:30:50.750420 tid7852 [IFO,App] org.micromanager.browser.Data_Browser fails to implement static String tooltipDescription.
+2017-07-28T12:30:50.750420 tid7852 [IFO,App] Installing plugin org.micromanager.pixelcalibrator.PixelCalibratorPlugin...
+2017-07-28T12:30:50.750420 tid7852 [IFO,App] Installing plugin org.micromanager.recall.RecallPlugin...
+2017-07-28T12:30:50.750420 tid7852 [IFO,App] Added URL to system class loader: file:/C:/Program%20Files/Micro-Manager-1.4/mmplugins/Acquisition_Tools/
+2017-07-28T12:30:50.750420 tid7852 [IFO,App] Added URL to system class loader: jar:file:C:\Program Files\Micro-Manager-1.4\mmplugins\Acquisition_Tools\AcquireMultipleRegions.jar!/
+2017-07-28T12:30:50.844177 tid7852 [IFO,App] Added URL to system class loader: jar:file:C:\Program Files\Micro-Manager-1.4\mmplugins\Acquisition_Tools\Gaussian.jar!/
+2017-07-28T12:30:50.953561 tid7852 [IFO,App] Added URL to system class loader: jar:file:C:\Program Files\Micro-Manager-1.4\mmplugins\Acquisition_Tools\HCS.jar!/
+2017-07-28T12:30:51.047320 tid7852 [IFO,App] Added URL to system class loader: jar:file:C:\Program Files\Micro-Manager-1.4\mmplugins\Acquisition_Tools\IntelligentAcquisition.jar!/
+2017-07-28T12:30:51.109824 tid7852 [IFO,App] Added URL to system class loader: jar:file:C:\Program Files\Micro-Manager-1.4\mmplugins\Acquisition_Tools\MMTracker.jar!/
+2017-07-28T12:30:51.156703 tid7852 [IFO,App] Added URL to system class loader: jar:file:C:\Program Files\Micro-Manager-1.4\mmplugins\Acquisition_Tools\PatternOverlay.jar!/
+2017-07-28T12:30:51.219208 tid7852 [IFO,App] Added URL to system class loader: jar:file:C:\Program Files\Micro-Manager-1.4\mmplugins\Acquisition_Tools\SlideExplorer.jar!/
+2017-07-28T12:30:51.250460 tid7852 [IFO,App] Installing plugin org.micromanager.acquiremultipleregions.AcquireMultipleRegions...
+2017-07-28T12:30:51.250460 tid7852 [IFO,App] Installing plugin GaussianTrack_...
+2017-07-28T12:30:51.250460 tid7852 [IFO,App] Installing plugin org.micromanager.hcs.SiteGenerator...
+2017-07-28T12:30:51.250460 tid7852 [IFO,App] Installing plugin org.micromanager.intelligentacquisition.IntelligentAcquisition...
+2017-07-28T12:30:51.250460 tid7852 [IFO,App] Installing plugin com.imaging100x.tracker.TrackerControl...
+2017-07-28T12:30:51.250460 tid7852 [IFO,App] Installing plugin org.micromanager.patternoverlay.PatternOverlayPlugin...
+2017-07-28T12:30:51.250460 tid7852 [IFO,App] Installing plugin org.micromanager.slideexplorer.SlideExplorerPlugin...
+2017-07-28T12:30:51.250460 tid7852 [IFO,App] Added URL to system class loader: file:/C:/Program%20Files/Micro-Manager-1.4/mmplugins/Beta/
+2017-07-28T12:30:51.250460 tid7852 [IFO,App] Added URL to system class loader: jar:file:C:\Program Files\Micro-Manager-1.4\mmplugins\Beta\CRISPv2.jar!/
+2017-07-28T12:30:51.297339 tid7852 [IFO,App] Added URL to system class loader: jar:file:C:\Program Files\Micro-Manager-1.4\mmplugins\Beta\SlideExplorer2.jar!/
+2017-07-28T12:30:52.078652 tid7852 [IFO,App] Installing plugin com.asiimaging.CRISPv2.ASI_CRISP_V2...
+2017-07-28T12:30:52.078652 tid7852 [IFO,App] Installing plugin org.micromanager.SlideExplorer2...
+2017-07-28T12:30:52.078652 tid7852 [IFO,App] Error: Plugin [org.micromanager.SlideExplorer2] has no menuName field
+2017-07-28T12:30:52.078652 tid7852 [IFO,App] org.micromanager.SlideExplorer2 fails to implement static String tooltipDescription.
+2017-07-28T12:30:52.078652 tid7852 [IFO,App] Added URL to system class loader: file:/C:/Program%20Files/Micro-Manager-1.4/mmplugins/Developer_Tools/
+2017-07-28T12:30:52.078652 tid7852 [IFO,App] Added URL to system class loader: jar:file:C:\Program Files\Micro-Manager-1.4\mmplugins\Developer_Tools\ClojureEditor.jar!/
+2017-07-28T12:30:52.094278 tid7852 [IFO,App] Added URL to system class loader: jar:file:C:\Program Files\Micro-Manager-1.4\mmplugins\Developer_Tools\DLLAutoReloader.jar!/
+2017-07-28T12:30:52.156783 tid7852 [IFO,App] Added URL to system class loader: jar:file:C:\Program Files\Micro-Manager-1.4\mmplugins\Developer_Tools\SequenceBufferMonitor.jar!/
+2017-07-28T12:30:52.172410 tid7852 [IFO,App] Installing plugin org.micromanager.clojureeditor.ClojureEditorPlugin...
+2017-07-28T12:30:52.172410 tid7852 [IFO,App] Installing plugin org.micromanager.DLLAutoReloader...
+2017-07-28T12:30:52.172410 tid7852 [IFO,App] Error: Plugin [org.micromanager.DLLAutoReloader] has no menuName field
+2017-07-28T12:30:52.172410 tid7852 [IFO,App] org.micromanager.DLLAutoReloader fails to implement static String tooltipDescription.
+2017-07-28T12:30:52.172410 tid7852 [IFO,App] Installing plugin org.micromanager.plugins.sequencebuffermonitor.SequenceBufferMonitor...
+2017-07-28T12:30:52.172410 tid7852 [IFO,App] Added URL to system class loader: file:/C:/Program%20Files/Micro-Manager-1.4/mmplugins/Device_Control/
+2017-07-28T12:30:52.172410 tid7852 [IFO,App] Added URL to system class loader: jar:file:C:\Program Files\Micro-Manager-1.4\mmplugins\Device_Control\ASIdiSPIM.jar!/
+2017-07-28T12:30:52.297420 tid7852 [IFO,App] Added URL to system class loader: jar:file:C:\Program Files\Micro-Manager-1.4\mmplugins\Device_Control\AutoLase.jar!/
+2017-07-28T12:30:52.313046 tid7852 [IFO,App] Added URL to system class loader: jar:file:C:\Program Files\Micro-Manager-1.4\mmplugins\Device_Control\CRISP.jar!/
+2017-07-28T12:30:52.359924 tid7852 [IFO,App] Added URL to system class loader: jar:file:C:\Program Files\Micro-Manager-1.4\mmplugins\Device_Control\MightexPolygon.jar!/
+2017-07-28T12:30:52.406803 tid7852 [IFO,App] Added URL to system class loader: jar:file:C:\Program Files\Micro-Manager-1.4\mmplugins\Device_Control\MultiCamera.jar!/
+2017-07-28T12:30:52.469308 tid7852 [IFO,App] Added URL to system class loader: jar:file:C:\Program Files\Micro-Manager-1.4\mmplugins\Device_Control\pgFocus.jar!/
+2017-07-28T12:30:52.516187 tid7852 [IFO,App] Added URL to system class loader: jar:file:C:\Program Files\Micro-Manager-1.4\mmplugins\Device_Control\Projector.jar!/
+2017-07-28T12:30:52.578692 tid7852 [IFO,App] Added URL to system class loader: jar:file:C:\Program Files\Micro-Manager-1.4\mmplugins\Device_Control\StageControl.jar!/
+2017-07-28T12:30:52.609945 tid7852 [IFO,App] Added URL to system class loader: jar:file:C:\Program Files\Micro-Manager-1.4\mmplugins\Device_Control\WhiteBalance.jar!/
+2017-07-28T12:30:52.656823 tid7852 [IFO,App] Installing plugin org.micromanager.asidispim.ASIdiSPIM...
+2017-07-28T12:30:52.656823 tid7852 [IFO,App] Installing plugin ch.epfl.leb.autolase.AutoLasePlugin...
+2017-07-28T12:30:52.656823 tid7852 [IFO,App] Installing plugin org.micromanager.CRISP.CRISP...
+2017-07-28T12:30:52.656823 tid7852 [IFO,App] Installing plugin org.micromanager.polygon.PolygonPlugin...
+2017-07-28T12:30:52.656823 tid7852 [IFO,App] Installing plugin org.micromanager.multicamera.MultiCamera...
+2017-07-28T12:30:52.656823 tid7852 [IFO,App] Installing plugin edu.umassmed.pgfocus.pgFocus...
+2017-07-28T12:30:52.656823 tid7852 [IFO,App] Installing plugin org.micromanager.projector.ProjectorPlugin...
+2017-07-28T12:30:52.656823 tid7852 [IFO,App] Installing plugin org.micromanager.stagecontrol.StageControl...
+2017-07-28T12:30:52.656823 tid7852 [IFO,App] Installing plugin PMQI.AutoWB...
+2017-07-28T12:30:52.656823 tid7852 [IFO,App] Added URL to system class loader: file:/C:/Program%20Files/Micro-Manager-1.4/mmplugins/On-The-Fly_Processors/
+2017-07-28T12:30:52.656823 tid7852 [IFO,App] Added URL to system class loader: jar:file:C:\Program Files\Micro-Manager-1.4\mmplugins\On-The-Fly_Processors\ImageFlipper.jar!/
+2017-07-28T12:30:52.688076 tid7852 [IFO,App] Added URL to system class loader: jar:file:C:\Program Files\Micro-Manager-1.4\mmplugins\On-The-Fly_Processors\MultiChannelShading.jar!/
+2017-07-28T12:30:52.750581 tid7852 [IFO,App] Added URL to system class loader: jar:file:C:\Program Files\Micro-Manager-1.4\mmplugins\On-The-Fly_Processors\SplitView.jar!/
+2017-07-28T12:30:52.781833 tid7852 [IFO,App] Installing plugin org.micromanager.newimageflipper.NewTaggedImageFlipper...
+2017-07-28T12:30:52.781833 tid7852 [IFO,App] Installing plugin org.micromanager.multichannelshading.MultiChannelShading...
+2017-07-28T12:30:52.781833 tid7852 [IFO,App] Installing plugin org.micromanager.splitview.SplitView...
+2017-07-28T12:30:52.797460 tid7852 [IFO,App] Added URL to system class loader: file:/C:/Program%20Files/Micro-Manager-1.4/mmautofocus/
+2017-07-28T12:30:52.797460 tid7852 [IFO,App] Added URL to system class loader: jar:file:C:\Program Files\Micro-Manager-1.4\mmautofocus\HardwareFocusExtender.jar!/
+2017-07-28T12:30:52.813086 tid7852 [IFO,App] Added URL to system class loader: jar:file:C:\Program Files\Micro-Manager-1.4\mmautofocus\MMAutofocus.jar!/
+2017-07-28T12:30:52.828712 tid7852 [IFO,App] Added URL to system class loader: jar:file:C:\Program Files\Micro-Manager-1.4\mmautofocus\MMAutofocusDuo.jar!/
+2017-07-28T12:30:52.844338 tid7852 [IFO,App] Added URL to system class loader: jar:file:C:\Program Files\Micro-Manager-1.4\mmautofocus\MMAutofocusTB.jar!/
+2017-07-28T12:30:52.844338 tid7852 [IFO,App] Added URL to system class loader: jar:file:C:\Program Files\Micro-Manager-1.4\mmautofocus\MMNullAutofocus.jar!/
+2017-07-28T12:30:52.859965 tid7852 [IFO,App] Added URL to system class loader: jar:file:C:\Program Files\Micro-Manager-1.4\mmautofocus\MMOughtaFocus.jar!/
+2017-07-28T12:30:52.875591 tid7852 [IFO,App] Attempting to install autofocus plugin HardwareFocusExtender
+2017-07-28T12:30:52.875591 tid7852 [IFO,App] Attempting to install autofocus plugin Autofocus
+2017-07-28T12:30:52.875591 tid7852 [IFO,App] Attempting to install autofocus plugin AutofocusDuo
+2017-07-28T12:30:52.875591 tid7852 [IFO,App] Attempting to install autofocus plugin AutofocusTB
+2017-07-28T12:30:52.875591 tid7852 [IFO,App] Attempting to install autofocus plugin NullAutofocus
+2017-07-28T12:30:52.875591 tid7852 [IFO,App] Attempting to install autofocus plugin OughtaFocus
+2017-07-28T12:30:54.062406 tid5176 [IFO,App] Finished waiting for plugins to load
+2017-07-28T12:30:54.078033 tid5176 [IFO,Core] Did unload all devices
+2017-07-28T12:30:54.078033 tid5176 [IFO,Core] Did load device COM1 from SerialManager; label = COM1
+2017-07-28T12:30:54.078033 tid5176 [IFO,Core] Did load device COM13 from SerialManager; label = COM13
+2017-07-28T12:30:54.078033 tid5176 [IFO,Core] Did load device COM8 from SerialManager; label = COM8
+2017-07-28T12:30:54.078033 tid5176 [IFO,Core] Did load device TIScope from NikonTI; label = TIScope
+2017-07-28T12:30:54.078033 tid5176 [IFO,Core] Did load device TIEpiShutter from NikonTI; label = TIEpiShutter
+2017-07-28T12:30:54.078033 tid5176 [IFO,Core] Did load device TIDiaShutter from NikonTI; label = TIDiaShutter
+2017-07-28T12:30:54.078033 tid5176 [IFO,Core] Did load device TINosePiece from NikonTI; label = TINosePiece
+2017-07-28T12:30:54.078033 tid5176 [IFO,Core] Did load device TIFilterBlock1 from NikonTI; label = TIFilterBlock1
+2017-07-28T12:30:54.078033 tid5176 [IFO,Core] Did load device TILightPath from NikonTI; label = TILightPath
+2017-07-28T12:30:54.078033 tid5176 [IFO,Core] Did load device TIZDrive from NikonTI; label = TIZDrive
+2017-07-28T12:30:54.078033 tid5176 [IFO,Core] Did load device TIPFSOffset from NikonTI; label = TIPFSOffset
+2017-07-28T12:30:54.078033 tid5176 [IFO,Core] Did load device TIPFSStatus from NikonTI; label = TIPFSStatus
+2017-07-28T12:30:54.078033 tid5176 [IFO,Core] Did load device Spectra from LumencorSpectra; label = Spectra
+2017-07-28T12:30:54.078033 tid5176 [IFO,Core] Did load device XYStage from Prior; label = XYStage
+2017-07-28T12:30:54.078033 tid5176 [IFO,Core] Did load device HamamatsuHam_DCAM from HamamatsuHam; label = C11440
+2017-07-28T12:30:54.078033 tid5176 [IFO,Core] Unloading all devices after failure to load system configuration
+2017-07-28T12:30:54.078033 tid5176 [IFO,Core] Did unload all devices
+2017-07-28T12:30:54.078033 tid5176 [IFO,Core] Now rethrowing original error from system configuration loading
+2017-07-28T12:30:54.078033 tid5176 [IFO,App] Failed to load hardware configuation
+                                   [       ] java.lang.Exception: Line 22: Device,AnalogIO,NI100X,AnalogIO
+                                   [       ] Failed to load device "AnalogIO" from adapter module "NI100X" [ Failed to load device adapter "NI100X" [ Failed to load module "C:\Program Files\Micro-Manager-1.4\mmgr_dal_NI100X.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ] ]
+                                   [       ] 
+                                   [       ]  in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at mmcorej.MMCoreJJNI.CMMCore_loadSystemConfiguration(Native Method)
+                                   [       ]   at mmcorej.CMMCore.loadSystemConfiguration(CMMCore.java:322)
+                                   [       ]   at org.micromanager.MMStudio.loadSystemConfiguration(MMStudio.java:1723)
+                                   [       ]   at org.micromanager.MMStudio.initializationSequence(MMStudio.java:480)
+                                   [       ]   at org.micromanager.MMStudio.<init>(MMStudio.java:374)
+                                   [       ]   at MMStudioPlugin$1.run(MMStudioPlugin.java:76)
+                                   [       ]   at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$000(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$1.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2017-07-28T12:30:55.124992 tid5176 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-07-28T12:30:55.124992 tid5176 [IFO,Core] Did update system state cache
+2017-07-28T12:30:55.124992 tid5176 [IFO,App] Finished updating GUI
+2017-07-28T12:30:55.124992 tid5176 [IFO,App] Startup script file (C:\Program Files\Micro-Manager-1.4\MMStartup.bsh) not present.
+2017-07-28T12:30:55.203123 tid5176 [IFO,App] Rebuilding config group table
+2017-07-28T12:30:55.203123 tid5176 [IFO,App] Finished rebuilding config group table
+2017-07-28T12:31:09.052936 tid5176 [IFO,Core] Did unload all devices
+2017-07-28T12:31:09.052936 tid5176 [IFO,Core] System reset
+2017-07-28T12:31:09.052936 tid5176 [IFO,Core] Core session ended

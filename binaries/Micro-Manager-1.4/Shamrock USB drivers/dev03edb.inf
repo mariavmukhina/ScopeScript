@@ -1,0 +1,139 @@
+; Copyright (C) 1999-2009 DeVaSys. All rights reserved.
+;
+; This file is provided "as is" without warranty of any kind,
+; either expressed or implied.
+;
+; Please read the license agreement for more information.
+;
+;
+; ================= Version Section ==============================
+
+[Version]
+Signature="$CHICAGO$"
+Class=DeVaSysUsbInterfaces
+ClassGuid={D7345EB6-522F-4f60-A3D1-01112B2D3845}
+Provider=%INF_Provider%
+DriverVer=04/27/2012,5.0.0003.0
+CatalogFile=dev03edb.cat
+; following lines added to meet Device Installer Frameworks (DIFx) requirements
+PnpLockDown=0
+DriverPackageDisplayName=%DriverPackageDescription%
+DriverPackageType=PlugAndPlay
+
+; ================= SourceDisksNames Section =====================
+
+[SourceDisksNames]
+1=%SourceDisk%,,,
+
+; ================= SourceDisksFiles Section =====================
+
+[SourceDisksFiles]
+dev03edb.sys=1
+usbi2cio.dll=1
+
+[SourceDisksFiles.x86]
+dev03edb.sys=1
+usbi2cio.dll=1
+
+[SourceDisksFiles.amd64]
+dev03edb64.sys=1
+usbi2cio64.dll=1
+usbi2cio.dll=1
+
+; ================= ClassInstall Section =========================
+
+[ClassInstall]	; for Windows 98/ME?
+AddReg=ClassAddReg ; Note: ClassAddReg defined in ClassInstall32
+
+; ================= ClassInstall32 Section =======================
+
+[ClassInstall32]
+AddReg=ClassAddReg
+
+[ClassAddReg]
+HKR,,,,"%DevClassName%"
+HKR,,Icon,,"-20" ; -20 is the usb icon
+
+; ================= DestinationDirs Section ======================
+
+[DestinationDirs]
+DefaultDestDir=10,System32\Drivers
+Install.Dev.CopyDllFiles=11 ; system on 98/ME, system32 on NT and above
+Install.Dev.CopyDllFiles.NTamd64=11 ; system32
+Install.Dev.CopyDllFiles.WoW64.NTamd64=10,SysWoW64 ;
+
+; ================= Manufacturer Section =========================
+
+[Manufacturer]
+%Manufacturer%=Models,NTx86,NTamd64
+
+; ================= Models Section ===============================
+
+[Models.NTx86]
+%DeviceDesc%=Install.Dev, USB\VID_0ABF&PID_03ED ; DeVaSys USB-I2C/IO
+
+[Models.NTamd64]
+%DeviceDesc%=Install.Dev, USB\VID_0ABF&PID_03ED ; DeVaSys USB-I2C/IO
+
+; ================= DDInstall Section ============================
+
+[Install.Dev]
+CopyFiles=Install.Dev.CopyDrvFiles, Install.Dev.CopyDllFiles
+
+[Install.Dev.NTx86]
+CopyFiles=Install.Dev.CopyDrvFiles, Install.Dev.CopyDllFiles
+
+[Install.Dev.NTamd64]
+CopyFiles=Install.Dev.CopyDrvFiles.NTamd64, Install.Dev.CopyDllFiles.NTamd64, Install.Dev.CopyDllFiles.WoW64.NTamd64
+
+[Install.Dev.CopyDrvFiles]
+dev03edb.sys
+
+[Install.Dev.CopyDrvFiles.NTamd64]
+;destName.ext,srcName.ext,,0x00004000
+dev03edb.sys,dev03edb64.sys
+
+[Install.Dev.CopyDllFiles]
+usbi2cio.dll
+
+[Install.Dev.CopyDllFiles.NTamd64]
+;destName.ext,srcName.ext,,0x00004000
+usbi2cio.dll,usbi2cio64.dll
+
+[Install.Dev.CopyDllFiles.WoW64.NTamd64]
+usbi2cio.dll
+
+
+; ================= DDInstall.Services Section ===================
+
+[Install.Dev.NTx86.Services]
+AddService = dev03edb, 0x00000002, Install.AddService
+
+[Install.Dev.NTamd64.Services]
+AddService = dev03edb, 0x00000002, Install.AddService
+
+[Install.AddService]
+DisplayName    = %SvcDesc%
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %10%\system32\drivers\dev03edb.sys
+AddReg         = Install.AddReg
+LoadOrderGroup = Base
+
+[Install.AddReg]
+;HKR,,DevLoader,,*ntkern
+;HKR,,NTMPDriver,,dev03edb.sys
+
+
+; ================= Strings Section ==============================
+
+[Strings]
+INF_Provider="DeVaSys "
+Manufacturer="DeVaSys"
+SourceDisk="USB-I2C/IO Installation Disk"
+SvcDesc="USB-I2C/IO Driver (dev03edb.sys)"
+DevClassName="DeVaSys USB Interfaces"
+DeviceDesc="USB-I2C/IO Board"
+; following line added to meet Device Installer Frameworks (DIFx) requirements
+DriverPackageDescription="DeVaSys USB-I2C/IO Drivers and Dlls"

@@ -1,0 +1,158 @@
+
+[Version]
+Signature=$CHICAGO$
+Class=AndorTechnology
+ClassGuid={BA4CEDC2-41ED-4D3F-898D-1EE1F2C8E1CC}
+Provider=%String0%
+DriverVer=01/29/2013, 4.33.0.0
+CatalogFile.nt=c1.cat
+CatalogFile.ntx86=c2.cat
+CatalogFile.ntamd64=c3.cat 
+
+
+[ClassInstall]
+AddReg=class.registry
+
+[DestinationDirs]
+DefaultDestDir=10,System32\Drivers
+CopyFiles98=11
+
+[Manufacturer]
+%String1%=DeviceList,NTamd64
+
+[DeviceList]
+%String2%=DriverInstall,PCI\VEN_149A&DEV_0001
+%String2%=DriverInstall,PCI\VEN_149A&DEV_0005
+%String3%=DriverInstall_PCIe,PCI\VEN_149A&DEV_0008
+
+[DeviceList.NTamd64]
+%String2%=DriverInstall,PCI\VEN_149A&DEV_0001
+%String2%=DriverInstall,PCI\VEN_149A&DEV_0005
+%String3%=DriverInstall_PCIe,PCI\VEN_149A&DEV_0008
+
+;------------------------------------------------------------------------------
+;  Windows 95/98 Sections
+;------------------------------------------------------------------------------
+
+[DriverInstall]
+CopyFiles=CopyFiles98
+AddReg=DriverAddReg
+DriverVer=01/29/2013, 4.33.0.0
+
+[CopyFiles98]
+atmcd95.vxd,,,2
+
+[class.registry]
+HKR,,ICON,0,-5
+
+[DriverInstall.hw]
+AddReg=DriverHwAddReg
+
+
+;------------------------------------------------------------------------------
+;  Windows 2000 Sections
+;------------------------------------------------------------------------------
+
+[DriverInstall_PCIe.NT]
+CopyFiles=DriverCopyFiles
+DriverVer=01/29/2013, 4.33.0.0
+; TODO Add a LogConfig command and section if this is a legacy device
+
+[DriverInstall_PCIe.NT.Services]
+AddService=AndorWDM,2,DriverService
+
+[DriverInstall_PCIe.NTamd64]
+CopyFiles=DriverCopyFiles64
+DriverVer=01/29/2013, 4.33.0.0
+; TODO Add a LogConfig command and section if this is a legacy device
+
+[DriverInstall_PCIe.NTamd64.Services]
+AddService=AndorWDM,2,DriverService64
+
+[DriverInstall_PCIe.nt.hw]
+AddReg=DriverHwAddReg_PCIe
+
+[DriverInstall_PCIe.ntamd64.hw]
+AddReg=DriverHwAddReg_PCIe
+
+[DriverInstall.NT]
+CopyFiles=DriverCopyFiles
+DriverVer=01/29/2013, 4.33.0.0
+; TODO Add a LogConfig command and section if this is a legacy device
+
+[DriverCopyFiles]
+atmcdwdm.sys,,,2
+
+[DriverInstall.NT.Services]
+AddService=AndorWDM,2,DriverService
+
+[DriverInstall.NTamd64]
+CopyFiles=DriverCopyFiles64
+DriverVer=01/29/2013, 4.33.0.0
+; TODO Add a LogConfig command and section if this is a legacy device
+
+[DriverCopyFiles64]
+atmcdwdm64.sys,,,2
+
+[DriverInstall.NTamd64.Services]
+AddService=AndorWDM,2,DriverService64
+
+[DriverService]
+ServiceType=1
+StartType=3
+ErrorControl=1
+ServiceBinary=%10%\system32\drivers\atmcdwdm.sys
+Addreg = AddReg_Andor_Service_Inst
+
+[DriverService64]
+ServiceType=1
+StartType=3
+ErrorControl=1
+ServiceBinary=%10%\system32\drivers\atmcdwdm64.sys
+Addreg = AddReg_Andor_Service_Inst
+
+[DriverInstall.nt.hw]
+AddReg=DriverHwAddReg
+
+[DriverInstall.ntamd64.hw]
+AddReg=DriverHwAddReg
+
+[DriverHwAddReg]
+HKR,,FriendlyName,,"Andor Technology PCI driver"
+
+[DriverHwAddReg_PCIe]
+HKR,,FriendlyName,,"Andor Technology CCI-24 PCIe Controller Card"
+
+[ClassInstall32]
+AddReg=ATMCDWDMClassReg
+
+[ATMCDWDMClassReg]
+HKR,,,0,Andor
+HKR,,Icon,,-5
+
+;------------------------------------------------------------------------------
+;  Common Sections
+;------------------------------------------------------------------------------
+
+[SourceDisksNames]
+1=%INSTDISK%,,
+
+[SourceDisksFiles]
+atmcdwdm.sys=1
+atmcd95.vxd=1
+atmcdwdm64.sys=1
+
+[Strings]
+String0="Andor Technology"
+String1="Andor Technology"
+String2="Andor Technology - Driver for PCI Device."
+String3="Andor Technology - Driver for PCIe Device."
+INSTDISK="AndorMCD"
+
+[AddReg_Andor_Service_Inst]
+HKR,Parameters,DMASizeBYTES,0x00010001 ,0x01000000
+[DriverAddReg]
+HKLM,System\CurrentControlSet\Services\Class\AndorTechnology,DMASizeBYTES,1,00,00,00,01
+HKR,,DevLoader,0,atmcd95.vxd
+
+

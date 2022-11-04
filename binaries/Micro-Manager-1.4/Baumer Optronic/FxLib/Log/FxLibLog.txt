@@ -1,0 +1,28 @@
+[22.07.2018 14:18:36:710] [BO1394] [Fxlib  ] [Inf] Process ID:     0x0000300c
+[22.07.2018 14:18:36:710] [BO1394] [Fxlib  ] [Inf] Process Name:   javaw.exe
+[22.07.2018 14:18:36:710] [BO1394] [Fxlib  ] [Inf] ------------------
+[22.07.2018 14:18:36:710] [BO1394] [Fxlib  ] [Inf] DRIVER INFORMATION
+[22.07.2018 14:18:36:710] [BO1394] [Fxlib  ] [Inf] ------------------
+[22.07.2018 14:18:36:711] [BO1394] [Fxlib  ] [Inf] baumer1394 Error while opening Service Control Manager
+[22.07.2018 14:18:36:711] [BO1394] [Fxlib  ] [Inf] -------------- 
+[22.07.2018 14:18:36:711] [BO1394] [Fxlib  ] [Inf] FXLIB  INSTANCE
+[22.07.2018 14:18:36:711] [BO1394] [Fxlib  ] [Inf] -------------- 
+[22.07.2018 14:18:36:711] [BO1394] [Fxlib  ] [Inf] SysInfo.dll:  Version 5.1.0.10442
+[22.07.2018 14:18:36:711] [BO1394] [Fxlib  ] [Err] SysInfo.dll:  Version 5.1.0.10442
+[22.07.2018 14:18:36:711] [BO1394] [Fxlib  ] [Inf] C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\FxLib.dll:   Version 5.1.0.10442 
+[22.07.2018 14:18:36:711] [BO1394] [Fxlib  ] [Inf] ---------------
+[22.07.2018 14:18:36:711] [BO1394] [Fxlib  ] [Inf] DLL INFORMATION
+[22.07.2018 14:18:36:711] [BO1394] [Fxlib  ] [Inf] ---------------
+[22.07.2018 14:18:36:711] [BO1394] [Fxlib  ] [Inf] ValueByRegistry::SingleShot2File:    0
+[22.07.2018 14:18:36:711] [BO1394] [Fxlib  ] [Inf] ValueByRegistry::CatchPattern:       0000000000000000 0x00000000
+[22.07.2018 14:18:36:711] [BO1394] [Fxlib  ] [Inf] ValueByRegistry::HardwareTestPP:     0
+[22.07.2018 14:18:36:711] [BO1394] [Fxlib  ] [Inf] ValueByRegistry::SupressLutForHist..:0
+[22.07.2018 14:18:36:711] [BO1394] [Fxlib  ] [Inf] ValueByRegistry::HistogramSmooth:    0
+[22.07.2018 14:18:36:711] [BO1394] [Fxlib  ] [Inf] ValueByRegistry::EnforceHotSpotCorr: 0
+[22.07.2018 14:18:36:711] [BO1394] [Fxlib  ] [Inf] ValueByRegistry::EnforceProfiling:   0
+[22.07.2018 14:18:36:711] [BO1394] [Fxlib  ] [Inf] ValueByRegistry::KillCrashProcess:   0
+[22.07.2018 14:18:36:711] [BO1394] [Fxlib  ] [Inf] ValueByRegistry::SkipSysInfo:        0
+[22.07.2018 14:18:36:711] [BO1394] [Fxlib  ] [Inf] ValueByRegistry::BufUnFlWarning:     100
+[22.07.2018 14:18:36:711] [BO1394] [Fxlib  ] [Inf] ValueByRegistry::ProtImageToChain:   0
+[22.07.2018 14:18:36:711] [BO1394] [Fxlib  ] [Inf] ValueByRegistry::AddOption           00000000
+[22.07.2018 14:18:36:711] [BO1394] [Fxlib  ] [Inf] ValueByRegistry::AddBuffer           00000000

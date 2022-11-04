@@ -1,0 +1,1063 @@
+2018-07-22T14:17:58.956380 tid11028 [IFO,LogManager] Enabled primary log file C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\CoreLogs\CoreLog20180722T141758_pid12300.txt
+2018-07-22T14:17:58.956380 tid11028 [IFO,App] User: muxika
+2018-07-22T14:17:58.956380 tid11028 [IFO,App] Host: DESKTOP-44A5HKU
+2018-07-22T14:17:58.956380 tid11028 [IFO,App] MM Studio version: 1.4.22
+2018-07-22T14:17:58.956380 tid11028 [IFO,App] MMCore version 8.1.0
+2018-07-22T14:17:58.956380 tid11028 [IFO,App] Device API version 65, Module API version 10
+2018-07-22T14:17:58.956380 tid11028 [IFO,App] Operating System: Windows NT (unknown) (amd64) 6.2
+2018-07-22T14:17:58.956380 tid11028 [IFO,App] JVM: Java HotSpot(TM) 64-Bit Server VM, version 1.6.0_31, 64-bit
+2018-07-22T14:17:58.966381 tid1048 [IFO,App] Added URL to system class loader: file:/C:/Users/muxika/Documents/MATLAB/MMmicroscopeScript16-11-2017/fcMicroscope/binaries/Micro-Manager-1.4/mmplugins/
+2018-07-22T14:17:58.966381 tid1048 [IFO,App] Added URL to system class loader: jar:file:C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmplugins\Big.jar!/
+2018-07-22T14:17:58.976381 tid1048 [IFO,App] Added URL to system class loader: jar:file:C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmplugins\DataBrowser.jar!/
+2018-07-22T14:17:59.610763 tid1048 [IFO,App] Added URL to system class loader: jar:file:C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmplugins\PixelCalibrator.jar!/
+2018-07-22T14:17:59.610763 tid1048 [IFO,App] Added URL to system class loader: jar:file:C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmplugins\Recall.jar!/
+2018-07-22T14:17:59.610763 tid1048 [IFO,App] Installing plugin org.micromanager.browser.Data_Browser...
+2018-07-22T14:17:59.610763 tid1048 [IFO,App] Error: Plugin [org.micromanager.browser.Data_Browser] has no menuName field
+2018-07-22T14:17:59.610763 tid1048 [IFO,App] org.micromanager.browser.Data_Browser fails to implement static String tooltipDescription.
+2018-07-22T14:17:59.620764 tid1048 [IFO,App] Installing plugin org.micromanager.pixelcalibrator.PixelCalibratorPlugin...
+2018-07-22T14:17:59.620764 tid1048 [IFO,App] Installing plugin org.micromanager.recall.RecallPlugin...
+2018-07-22T14:17:59.620764 tid1048 [IFO,App] Added URL to system class loader: file:/C:/Users/muxika/Documents/MATLAB/MMmicroscopeScript16-11-2017/fcMicroscope/binaries/Micro-Manager-1.4/mmplugins/Acquisition_Tools/
+2018-07-22T14:17:59.620764 tid1048 [IFO,App] Added URL to system class loader: jar:file:C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmplugins\Acquisition_Tools\AcquireMultipleRegions.jar!/
+2018-07-22T14:17:59.630764 tid1048 [IFO,App] Added URL to system class loader: jar:file:C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmplugins\Acquisition_Tools\Gaussian.jar!/
+2018-07-22T14:17:59.750772 tid1048 [IFO,App] Added URL to system class loader: jar:file:C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmplugins\Acquisition_Tools\HCS.jar!/
+2018-07-22T14:17:59.770774 tid1048 [IFO,App] Added URL to system class loader: jar:file:C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmplugins\Acquisition_Tools\IntelligentAcquisition.jar!/
+2018-07-22T14:17:59.780774 tid1048 [IFO,App] Added URL to system class loader: jar:file:C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmplugins\Acquisition_Tools\MMTracker.jar!/
+2018-07-22T14:17:59.790776 tid1048 [IFO,App] Added URL to system class loader: jar:file:C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmplugins\Acquisition_Tools\PatternOverlay.jar!/
+2018-07-22T14:17:59.800776 tid1048 [IFO,App] Added URL to system class loader: jar:file:C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmplugins\Acquisition_Tools\SlideExplorer.jar!/
+2018-07-22T14:17:59.840778 tid1048 [IFO,App] Installing plugin org.micromanager.acquiremultipleregions.AcquireMultipleRegions...
+2018-07-22T14:17:59.840778 tid1048 [IFO,App] Installing plugin GaussianTrack_...
+2018-07-22T14:17:59.840778 tid1048 [IFO,App] Installing plugin org.micromanager.hcs.SiteGenerator...
+2018-07-22T14:17:59.840778 tid1048 [IFO,App] Installing plugin org.micromanager.intelligentacquisition.IntelligentAcquisition...
+2018-07-22T14:17:59.840778 tid1048 [IFO,App] Installing plugin com.imaging100x.tracker.TrackerControl...
+2018-07-22T14:17:59.840778 tid1048 [IFO,App] Installing plugin org.micromanager.patternoverlay.PatternOverlayPlugin...
+2018-07-22T14:17:59.840778 tid1048 [IFO,App] Installing plugin org.micromanager.slideexplorer.SlideExplorerPlugin...
+2018-07-22T14:17:59.840778 tid1048 [IFO,App] Added URL to system class loader: file:/C:/Users/muxika/Documents/MATLAB/MMmicroscopeScript16-11-2017/fcMicroscope/binaries/Micro-Manager-1.4/mmplugins/Beta/
+2018-07-22T14:17:59.840778 tid1048 [IFO,App] Added URL to system class loader: jar:file:C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmplugins\Beta\CRISPv2.jar!/
+2018-07-22T14:17:59.850779 tid1048 [IFO,App] Added URL to system class loader: jar:file:C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmplugins\Beta\SlideExplorer2.jar!/
+2018-07-22T14:18:00.704538 tid1048 [IFO,App] Installing plugin com.asiimaging.CRISPv2.ASI_CRISP_V2...
+2018-07-22T14:18:00.704538 tid1048 [IFO,App] Installing plugin org.micromanager.SlideExplorer2...
+2018-07-22T14:18:00.704538 tid1048 [IFO,App] Error: Plugin [org.micromanager.SlideExplorer2] has no menuName field
+2018-07-22T14:18:00.704538 tid1048 [IFO,App] org.micromanager.SlideExplorer2 fails to implement static String tooltipDescription.
+2018-07-22T14:18:00.704538 tid1048 [IFO,App] Added URL to system class loader: file:/C:/Users/muxika/Documents/MATLAB/MMmicroscopeScript16-11-2017/fcMicroscope/binaries/Micro-Manager-1.4/mmplugins/Developer_Tools/
+2018-07-22T14:18:00.704538 tid1048 [IFO,App] Added URL to system class loader: jar:file:C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmplugins\Developer_Tools\ClojureEditor.jar!/
+2018-07-22T14:18:00.714540 tid1048 [IFO,App] Added URL to system class loader: jar:file:C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmplugins\Developer_Tools\DLLAutoReloader.jar!/
+2018-07-22T14:18:00.774542 tid1048 [IFO,App] Added URL to system class loader: jar:file:C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmplugins\Developer_Tools\SequenceBufferMonitor.jar!/
+2018-07-22T14:18:00.774542 tid1048 [IFO,App] Installing plugin org.micromanager.clojureeditor.ClojureEditorPlugin...
+2018-07-22T14:18:00.774542 tid1048 [IFO,App] Installing plugin org.micromanager.DLLAutoReloader...
+2018-07-22T14:18:00.774542 tid1048 [IFO,App] Error: Plugin [org.micromanager.DLLAutoReloader] has no menuName field
+2018-07-22T14:18:00.774542 tid1048 [IFO,App] org.micromanager.DLLAutoReloader fails to implement static String tooltipDescription.
+2018-07-22T14:18:00.774542 tid1048 [IFO,App] Installing plugin org.micromanager.plugins.sequencebuffermonitor.SequenceBufferMonitor...
+2018-07-22T14:18:00.774542 tid1048 [IFO,App] Added URL to system class loader: file:/C:/Users/muxika/Documents/MATLAB/MMmicroscopeScript16-11-2017/fcMicroscope/binaries/Micro-Manager-1.4/mmplugins/Device_Control/
+2018-07-22T14:18:00.774542 tid1048 [IFO,App] Added URL to system class loader: jar:file:C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmplugins\Device_Control\ASIdiSPIM.jar!/
+2018-07-22T14:18:00.914551 tid1048 [IFO,App] Added URL to system class loader: jar:file:C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmplugins\Device_Control\AutoLase.jar!/
+2018-07-22T14:18:00.944554 tid1048 [IFO,App] Added URL to system class loader: jar:file:C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmplugins\Device_Control\CRISP.jar!/
+2018-07-22T14:18:00.944554 tid1048 [IFO,App] Added URL to system class loader: jar:file:C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmplugins\Device_Control\MightexPolygon.jar!/
+2018-07-22T14:18:00.994557 tid1048 [IFO,App] Added URL to system class loader: jar:file:C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmplugins\Device_Control\MultiCamera.jar!/
+2018-07-22T14:18:01.004558 tid1048 [IFO,App] Added URL to system class loader: jar:file:C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmplugins\Device_Control\pgFocus.jar!/
+2018-07-22T14:18:01.024559 tid1048 [IFO,App] Added URL to system class loader: jar:file:C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmplugins\Device_Control\Projector.jar!/
+2018-07-22T14:18:01.068812 tid1048 [IFO,App] Added URL to system class loader: jar:file:C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmplugins\Device_Control\StageControl.jar!/
+2018-07-22T14:18:01.098813 tid1048 [IFO,App] Added URL to system class loader: jar:file:C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmplugins\Device_Control\WhiteBalance.jar!/
+2018-07-22T14:18:01.098813 tid1048 [IFO,App] Installing plugin org.micromanager.asidispim.ASIdiSPIM...
+2018-07-22T14:18:01.098813 tid1048 [IFO,App] Installing plugin ch.epfl.leb.autolase.AutoLasePlugin...
+2018-07-22T14:18:01.098813 tid1048 [IFO,App] Installing plugin org.micromanager.CRISP.CRISP...
+2018-07-22T14:18:01.098813 tid1048 [IFO,App] Installing plugin org.micromanager.polygon.PolygonPlugin...
+2018-07-22T14:18:01.098813 tid1048 [IFO,App] Installing plugin org.micromanager.multicamera.MultiCamera...
+2018-07-22T14:18:01.098813 tid1048 [IFO,App] Installing plugin edu.umassmed.pgfocus.pgFocus...
+2018-07-22T14:18:01.108814 tid1048 [IFO,App] Installing plugin org.micromanager.projector.ProjectorPlugin...
+2018-07-22T14:18:01.108814 tid1048 [IFO,App] Installing plugin org.micromanager.stagecontrol.StageControl...
+2018-07-22T14:18:01.108814 tid1048 [IFO,App] Installing plugin PMQI.AutoWB...
+2018-07-22T14:18:01.108814 tid1048 [IFO,App] Added URL to system class loader: file:/C:/Users/muxika/Documents/MATLAB/MMmicroscopeScript16-11-2017/fcMicroscope/binaries/Micro-Manager-1.4/mmplugins/On-The-Fly_Processors/
+2018-07-22T14:18:01.108814 tid1048 [IFO,App] Added URL to system class loader: jar:file:C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmplugins\On-The-Fly_Processors\ImageFlipper.jar!/
+2018-07-22T14:18:01.108814 tid1048 [IFO,App] Added URL to system class loader: jar:file:C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmplugins\On-The-Fly_Processors\MultiChannelShading.jar!/
+2018-07-22T14:18:01.128816 tid1048 [IFO,App] Added URL to system class loader: jar:file:C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmplugins\On-The-Fly_Processors\SplitView.jar!/
+2018-07-22T14:18:01.138816 tid1048 [IFO,App] Installing plugin org.micromanager.newimageflipper.NewTaggedImageFlipper...
+2018-07-22T14:18:01.138816 tid1048 [IFO,App] Installing plugin org.micromanager.multichannelshading.MultiChannelShading...
+2018-07-22T14:18:01.138816 tid1048 [IFO,App] Installing plugin org.micromanager.splitview.SplitView...
+2018-07-22T14:18:01.158818 tid1048 [IFO,App] Added URL to system class loader: file:/C:/Users/muxika/Documents/MATLAB/MMmicroscopeScript16-11-2017/fcMicroscope/binaries/Micro-Manager-1.4/mmautofocus/
+2018-07-22T14:18:01.158818 tid1048 [IFO,App] Added URL to system class loader: jar:file:C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmautofocus\HardwareFocusExtender.jar!/
+2018-07-22T14:18:01.158818 tid1048 [IFO,App] Added URL to system class loader: jar:file:C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmautofocus\MMAutofocus.jar!/
+2018-07-22T14:18:01.158818 tid1048 [IFO,App] Added URL to system class loader: jar:file:C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmautofocus\MMAutofocusDuo.jar!/
+2018-07-22T14:18:01.158818 tid1048 [IFO,App] Added URL to system class loader: jar:file:C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmautofocus\MMAutofocusTB.jar!/
+2018-07-22T14:18:01.158818 tid1048 [IFO,App] Added URL to system class loader: jar:file:C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmautofocus\MMNullAutofocus.jar!/
+2018-07-22T14:18:01.158818 tid1048 [IFO,App] Added URL to system class loader: jar:file:C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmautofocus\MMOughtaFocus.jar!/
+2018-07-22T14:18:01.168818 tid1048 [IFO,App] Attempting to install autofocus plugin HardwareFocusExtender
+2018-07-22T14:18:01.168818 tid1048 [IFO,App] Attempting to install autofocus plugin Autofocus
+2018-07-22T14:18:01.168818 tid1048 [IFO,App] Attempting to install autofocus plugin AutofocusDuo
+2018-07-22T14:18:01.168818 tid1048 [IFO,App] Attempting to install autofocus plugin AutofocusTB
+2018-07-22T14:18:01.168818 tid1048 [IFO,App] Attempting to install autofocus plugin NullAutofocus
+2018-07-22T14:18:01.168818 tid1048 [IFO,App] Attempting to install autofocus plugin OughtaFocus
+2018-07-22T14:18:29.071522 tid11028 [IFO,App] Finished waiting for plugins to load
+2018-07-22T14:18:29.071522 tid11028 [IFO,Core] Did unload all devices
+2018-07-22T14:18:29.081523 tid11028 [IFO,Core] Did load device COM5 from SerialManager; label = COM5
+2018-07-22T14:18:29.081523 tid11028 [IFO,Core] Did load device COM10 from SerialManager; label = COM10
+2018-07-22T14:18:29.081523 tid11028 [IFO,Core] Did load device COM4 from SerialManager; label = COM4
+2018-07-22T14:18:29.081523 tid11028 [IFO,Core] Did load device pE4000 from CoolLED-pE4000; label = pE4000
+2018-07-22T14:18:29.081523 tid11028 [IFO,Core] Did load device HamamatsuHam_DCAM from HamamatsuHam; label = C13440
+2018-07-22T14:18:29.081523 tid11028 [IFO,Core] Did load device FreeSerialPort from FreeSerialPort; label = ScopeLED-B
+2018-07-22T14:18:29.081523 tid11028 [IFO,Core] Did load device FreeSerialPort from FreeSerialPort; label = Arduino
+2018-07-22T14:18:29.081523 tid11028 [IFO,Core] Will initialize 7 devices
+2018-07-22T14:18:29.081523 tid11028 [IFO,Core] Will initialize device COM5
+2018-07-22T14:18:29.171529 tid11028 [IFO,Core] Did initialize device COM5
+2018-07-22T14:18:29.171529 tid11028 [IFO,Core] Will initialize device COM10
+2018-07-22T14:18:29.361541 tid11028 [IFO,Core] Did initialize device COM10
+2018-07-22T14:18:29.361541 tid11028 [IFO,Core] Will initialize device COM4
+2018-07-22T14:18:29.671561 tid11028 [IFO,Core] Did initialize device COM4
+2018-07-22T14:18:29.671561 tid11028 [IFO,Core] Will initialize device pE4000
+2018-07-22T14:18:29.851573 tid11028 [IFO,Core] Did initialize device pE4000
+2018-07-22T14:18:29.851573 tid11028 [IFO,Core] Default shutter set to pE4000
+2018-07-22T14:18:29.851573 tid11028 [IFO,Core] Will initialize device C13440
+2018-07-22T14:18:30.742484 tid11028 [IFO,Core] Did initialize device C13440
+2018-07-22T14:18:30.742484 tid11028 [IFO,Core] Default camera set to C13440
+2018-07-22T14:18:30.742484 tid11028 [IFO,Core] Will initialize device ScopeLED-B
+2018-07-22T14:18:30.742484 tid11028 [IFO,Core] Did initialize device ScopeLED-B
+2018-07-22T14:18:30.742484 tid11028 [IFO,Core] Will initialize device Arduino
+2018-07-22T14:18:30.742484 tid11028 [IFO,Core] Did initialize device Arduino
+2018-07-22T14:18:30.742484 tid11028 [IFO,Core] Finished initializing 7 devices
+2018-07-22T14:18:30.742484 tid11028 [IFO,Core] Default camera set to C13440
+2018-07-22T14:18:30.743485 tid11028 [IFO,Core] Did update system state cache
+2018-07-22T14:18:30.748490 tid11028 [IFO,App] Updating GUI; config pad = true; from cache = false
+2018-07-22T14:18:30.750493 tid11028 [IFO,Core] Did update system state cache
+2018-07-22T14:18:30.750493 tid11028 [IFO,App] Finished updating GUI
+2018-07-22T14:18:30.750493 tid11028 [IFO,App] Startup script file (C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\MMStartup.bsh) not present.
+2018-07-22T14:18:30.825564 tid11028 [IFO,App] Rebuilding config group table
+2018-07-22T14:18:30.825564 tid11028 [IFO,App] Finished rebuilding config group table
+2018-07-22T14:18:36.445436 tid11028 [IFO,Core] Did unload all devices
+2018-07-22T14:18:36.445436 tid11028 [IFO,Core] System reset
+2018-07-22T14:18:36.475439 tid11028 [IFO,App] AAAOTF
+2018-07-22T14:18:36.475439 tid11028 [IFO,App]    AAAOTF, AAAOTF
+2018-07-22T14:18:36.475439 tid11028 [IFO,App]    multiAAAOTF, multiAAAOTF
+2018-07-22T14:18:36.475439 tid11028 [IFO,App] ABSCamera
+2018-07-22T14:18:36.475439 tid11028 [IFO,App]    ABSCam, ABS camera
+2018-07-22T14:18:36.475439 tid11028 [IFO,App] AgilentLaserCombiner
+2018-07-22T14:18:36.485439 tid11028 [IFO,App]    LC-Shutter, Shutter
+2018-07-22T14:18:36.485439 tid11028 [IFO,App]    LC-SafetyShutter, SafetyShutter
+2018-07-22T14:18:36.485439 tid11028 [IFO,App]    LC-DAC, DA
+2018-07-22T14:18:36.485439 tid11028 [IFO,App] Aladdin
+2018-07-22T14:18:36.485439 tid11028 [IFO,App]    Aladdin, Aladdin Syringe Pump
+2018-07-22T14:18:36.485439 tid11028 [IFO,App] Andor
+2018-07-22T14:18:36.535442 tid11028 [IFO,App]    Andor, Generic Andor Camera Adapter
+2018-07-22T14:18:36.535442 tid11028 [IFO,App] AndorLaserCombiner
+2018-07-22T14:18:36.535442 tid11028 [IFO,App]    AndorLaserCombiner, AndorLaserCombiner
+2018-07-22T14:18:36.535442 tid11028 [IFO,App]    PiezoStage, PiezoStage
+2018-07-22T14:18:36.535442 tid11028 [IFO,App] AndorSDK3
+2018-07-22T14:18:36.555443 tid11028 [IFO,App] Error: Unable to load AndorSDK3 library: Failed to load device adapter "AndorSDK3" [ Failed to load module "C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmgr_dal_AndorSDK3.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2018-07-22T14:18:36.555443 tid11028 [IFO,App] AndorShamrock
+2018-07-22T14:18:36.555443 tid11028 [IFO,App] Error: Unable to load AndorShamrock library: Failed to load device adapter "AndorShamrock" [ Failed to load module "C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmgr_dal_AndorShamrock.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2018-07-22T14:18:36.555443 tid11028 [IFO,App] AOTF
+2018-07-22T14:18:36.565444 tid11028 [IFO,App]    AOTF-Switch, TTL digital out AOTF wavelength selector
+2018-07-22T14:18:36.565444 tid11028 [IFO,App]    AOTF-Shutter, TTL digital out AOTF shutter
+2018-07-22T14:18:36.565444 tid11028 [IFO,App] Aquinas
+2018-07-22T14:18:36.565444 tid11028 [IFO,App]    Aquinas Controller, Aquinas Controller
+2018-07-22T14:18:36.565444 tid11028 [IFO,App] Arduino
+2018-07-22T14:18:36.575445 tid11028 [IFO,App]    Arduino-Hub, Hub (required)
+2018-07-22T14:18:36.575445 tid11028 [IFO,App]    Arduino-Switch, Digital out 8-bit
+2018-07-22T14:18:36.575445 tid11028 [IFO,App]    Arduino-Shutter, Shutter
+2018-07-22T14:18:36.575445 tid11028 [IFO,App]    Arduino-DAC1, DAC channel 1
+2018-07-22T14:18:36.575445 tid11028 [IFO,App]    Arduino-DAC2, DAC channel 2
+2018-07-22T14:18:36.575445 tid11028 [IFO,App]    Arduino-Input, ADC
+2018-07-22T14:18:36.575445 tid11028 [IFO,App] ArduinoNeoPixel
+2018-07-22T14:18:36.575445 tid11028 [IFO,App]    ArduinoNeoPixel-Hub, Hub (required)
+2018-07-22T14:18:36.575445 tid11028 [IFO,App]    ArduinoNeoPixel-Shutter, Shutter
+2018-07-22T14:18:36.575445 tid11028 [IFO,App] ASIFW1000
+2018-07-22T14:18:36.575445 tid11028 [IFO,App]    ASIFWController, ASIFW1000 Controller
+2018-07-22T14:18:36.575445 tid11028 [IFO,App]    ASIFilterWheel, ASI FilterWheel
+2018-07-22T14:18:36.575445 tid11028 [IFO,App]    ASIShutter, ASI Shutter
+2018-07-22T14:18:36.575445 tid11028 [IFO,App] ASIStage
+2018-07-22T14:18:36.585445 tid11028 [IFO,App]    ZStage, Add-on Z-stage
+2018-07-22T14:18:36.585445 tid11028 [IFO,App]    XYStage, XY Stage
+2018-07-22T14:18:36.585445 tid11028 [IFO,App]    CRIF, CRIF
+2018-07-22T14:18:36.585445 tid11028 [IFO,App]    CRISP, CRISP
+2018-07-22T14:18:36.585445 tid11028 [IFO,App]    AZ100 Turret, AZ100 Turret
+2018-07-22T14:18:36.585445 tid11028 [IFO,App]    State Device, State Device
+2018-07-22T14:18:36.585445 tid11028 [IFO,App]    LED, LED
+2018-07-22T14:18:36.585445 tid11028 [IFO,App] ASITiger
+2018-07-22T14:18:36.585445 tid11028 [IFO,App]    TigerCommHub, ASI TigerComm Hub (TG-1000)
+2018-07-22T14:18:36.585445 tid11028 [IFO,App] ASIwptr
+2018-07-22T14:18:36.585445 tid11028 [IFO,App]    WPTRobot, WPTRobot
+2018-07-22T14:18:36.585445 tid11028 [IFO,App] AxioCam
+2018-07-22T14:18:36.595446 tid11028 [IFO,App]    Zeiss AxioCam, Zeiss AxioCam
+2018-07-22T14:18:36.595446 tid11028 [IFO,App] BaumerOptronic
+2018-07-22T14:18:36.711355 tid11028 [IFO,App]    BaumerOptronic, Baumer Optronic driver for Leica Cameras
+2018-07-22T14:18:36.711355 tid11028 [IFO,App] CARVII
+2018-07-22T14:18:36.714357 tid11028 [IFO,App]    CARVII Hub, Hub (Needed for CARVII)
+2018-07-22T14:18:36.714357 tid11028 [IFO,App]    CARVII Shutter, Confocal shutter
+2018-07-22T14:18:36.714357 tid11028 [IFO,App]    CARVII Ex filter, Confocal excitation filter wheel
+2018-07-22T14:18:36.714357 tid11028 [IFO,App]    CARVII Em filter, Confocal emission filter wheel
+2018-07-22T14:18:36.714357 tid11028 [IFO,App]    CARVII Dichroic, Confocal dichroic wheel
+2018-07-22T14:18:36.714357 tid11028 [IFO,App]    CARVII FRAP iris, Confocal field aperture
+2018-07-22T14:18:36.714357 tid11028 [IFO,App]    CARVII Intensity iris, Confocal "Condenser" illumination aperture
+2018-07-22T14:18:36.714357 tid11028 [IFO,App]    CARVII Disk slider, Spinning disk slider
+2018-07-22T14:18:36.714357 tid11028 [IFO,App]    CARVII Spin motor, Spinning disk motor
+2018-07-22T14:18:36.714357 tid11028 [IFO,App]    CARVII Prism slider, Light path slider
+2018-07-22T14:18:36.714357 tid11028 [IFO,App]    CARVII Touchscreen, Touchscreen lockout control
+2018-07-22T14:18:36.714357 tid11028 [IFO,App] Cobolt
+2018-07-22T14:18:36.717360 tid11028 [IFO,App]    Cobolt, Cobolt Laser Controller
+2018-07-22T14:18:36.717360 tid11028 [IFO,App] CoherentCube
+2018-07-22T14:18:36.719362 tid11028 [IFO,App]    CoherentCube, CoherentCube Laser
+2018-07-22T14:18:36.719362 tid11028 [IFO,App] CoherentOBIS
+2018-07-22T14:18:36.722365 tid11028 [IFO,App]    CoherentObis, CoherentObis Laser
+2018-07-22T14:18:36.722365 tid11028 [IFO,App] Conix
+2018-07-22T14:18:36.725368 tid11028 [IFO,App]    ConixQuadFilter, External Filter Cube Switcher
+2018-07-22T14:18:36.725368 tid11028 [IFO,App]    ConixHexFilter, External Filter Cube Switcher(6)
+2018-07-22T14:18:36.725368 tid11028 [IFO,App]    ConixXYStage, Conix XY stage
+2018-07-22T14:18:36.725368 tid11028 [IFO,App]    ConixZStage, Conix Z stage
+2018-07-22T14:18:36.725368 tid11028 [IFO,App] CoolLED-pE4000
+2018-07-22T14:18:36.725368 tid11028 [IFO,App]    pE4000, pE4000 LED illuminator
+2018-07-22T14:18:36.725368 tid11028 [IFO,App] Corvus
+2018-07-22T14:18:36.728371 tid11028 [IFO,App]    ITK Corvus Controller, ITK Corvus Controller
+2018-07-22T14:18:36.728371 tid11028 [IFO,App]    XY Stage, XY Stage
+2018-07-22T14:18:36.728371 tid11028 [IFO,App]    Z Axis, Z Axis
+2018-07-22T14:18:36.728371 tid11028 [IFO,App] CSUW1
+2018-07-22T14:18:36.730373 tid11028 [IFO,App]    CSUW1-Hub, CSUW1 Hub (Needed for CSUW1. 115200bps)
+2018-07-22T14:18:36.730373 tid11028 [IFO,App]    CSUW1-Filter Wheel, Filter Wheel
+2018-07-22T14:18:36.730373 tid11028 [IFO,App]    CSUW1-Dichroic Mirror, Dichroic Mirror
+2018-07-22T14:18:36.730373 tid11028 [IFO,App]    CSUW1-Shutter, Shutter
+2018-07-22T14:18:36.730373 tid11028 [IFO,App]    CSUW1-Drive Speed, Drive Speed
+2018-07-22T14:18:36.730373 tid11028 [IFO,App]    CSUW1-Bright Field, Bright Field
+2018-07-22T14:18:36.730373 tid11028 [IFO,App]    CSUW1-Disk, Disk
+2018-07-22T14:18:36.730373 tid11028 [IFO,App]    CSUW1-Port, Port
+2018-07-22T14:18:36.730373 tid11028 [IFO,App]    CSUW1-Aperture, Aperture
+2018-07-22T14:18:36.730373 tid11028 [IFO,App]    CSUW1-FRAP, FRAP
+2018-07-22T14:18:36.730373 tid11028 [IFO,App]    CSUW1-Magnifier, Magnifier
+2018-07-22T14:18:36.730373 tid11028 [IFO,App]    CSUW1-NIR Shutter, NIR Shutter
+2018-07-22T14:18:36.730373 tid11028 [IFO,App] CSUX
+2018-07-22T14:18:36.733376 tid11028 [IFO,App]    CSUX-Hub, CSUX Hub (Needed for CSUX)
+2018-07-22T14:18:36.733376 tid11028 [IFO,App]    CSUX-Filter Wheel, Filter Wheel
+2018-07-22T14:18:36.733376 tid11028 [IFO,App]    CSUX-Dichroic Mirror, Dichroic Mirror
+2018-07-22T14:18:36.733376 tid11028 [IFO,App]    CSUX-Shutter, Shutter
+2018-07-22T14:18:36.733376 tid11028 [IFO,App]    CSUX-DriveSpeed, DriveSpeed
+2018-07-22T14:18:36.733376 tid11028 [IFO,App] dc1394
+2018-07-22T14:18:36.740382 tid11028 [IFO,App] Error: Unable to load dc1394 library: Failed to load device adapter "dc1394" [ Failed to load module "C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmgr_dal_dc1394.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2018-07-22T14:18:36.740382 tid11028 [IFO,App] DECamera
+2018-07-22T14:18:36.744386 tid11028 [IFO,App]    Direct Electron Camera, Direct Electron Camera
+2018-07-22T14:18:36.744386 tid11028 [IFO,App] DemoCamera
+2018-07-22T14:18:36.747390 tid11028 [IFO,App]    DCam, Demo camera
+2018-07-22T14:18:36.747390 tid11028 [IFO,App]    DWheel, Demo filter wheel
+2018-07-22T14:18:36.747390 tid11028 [IFO,App]    DStateDevice, Demo State Device
+2018-07-22T14:18:36.747390 tid11028 [IFO,App]    DObjective, Demo objective turret
+2018-07-22T14:18:36.747390 tid11028 [IFO,App]    DStage, Demo stage
+2018-07-22T14:18:36.747390 tid11028 [IFO,App]    DXYStage, Demo XY stage
+2018-07-22T14:18:36.747390 tid11028 [IFO,App]    DLightPath, Demo light path
+2018-07-22T14:18:36.747390 tid11028 [IFO,App]    DAutoFocus, Demo auto focus
+2018-07-22T14:18:36.747390 tid11028 [IFO,App]    DShutter, Demo shutter
+2018-07-22T14:18:36.747390 tid11028 [IFO,App]    D-DA, Demo DA
+2018-07-22T14:18:36.747390 tid11028 [IFO,App]    DOptovar, Demo Optovar
+2018-07-22T14:18:36.747390 tid11028 [IFO,App]    DGalvo, Demo Galvo
+2018-07-22T14:18:36.747390 tid11028 [IFO,App]    TransposeProcessor, TransposeProcessor
+2018-07-22T14:18:36.747390 tid11028 [IFO,App]    ImageFlipX, ImageFlipX
+2018-07-22T14:18:36.747390 tid11028 [IFO,App]    ImageFlipY, ImageFlipY
+2018-07-22T14:18:36.747390 tid11028 [IFO,App]    MedianFilter, MedianFilter
+2018-07-22T14:18:36.747390 tid11028 [IFO,App]    DHub, DHub
+2018-07-22T14:18:36.747390 tid11028 [IFO,App] Diskovery
+2018-07-22T14:18:36.750392 tid11028 [IFO,App]    Diskovery-Hub, Diskovery Hub (required)
+2018-07-22T14:18:36.750392 tid11028 [IFO,App]    Diskovery-Disk-Position, Diskovery Spinning Disk Position
+2018-07-22T14:18:36.750392 tid11028 [IFO,App]    Diskovery-Illumination-Size, Diskovery Illumination Size
+2018-07-22T14:18:36.750392 tid11028 [IFO,App]    Diskovery-TIRF-Position, Diskovery TIRF Position
+2018-07-22T14:18:36.750392 tid11028 [IFO,App]    Diskovery-Objective-Select, Diskovery Objective Select
+2018-07-22T14:18:36.750392 tid11028 [IFO,App]    Diskovery-Filter-W, Diskovery Filter W
+2018-07-22T14:18:36.750392 tid11028 [IFO,App]    Diskovery-Filter-T, Diskovery Filter T
+2018-07-22T14:18:36.750392 tid11028 [IFO,App] DTOpenLayer
+2018-07-22T14:18:36.753395 tid11028 [IFO,App] Error: Unable to load DTOpenLayer library: Failed to load device adapter "DTOpenLayer" [ Failed to load module "C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmgr_dal_DTOpenLayer.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2018-07-22T14:18:36.753395 tid11028 [IFO,App] ESIOImagingControllers
+2018-07-22T14:18:36.756398 tid11028 [IFO,App]    ESioController, ESImaging Controller
+2018-07-22T14:18:36.756398 tid11028 [IFO,App] FLICamera
+2018-07-22T14:18:36.760402 tid11028 [IFO,App]    FLICamera, FLI Camera Device
+2018-07-22T14:18:36.760402 tid11028 [IFO,App] FreeSerialPort
+2018-07-22T14:18:36.760402 tid11028 [IFO,App]    FreeSerialPort, Free-form communication Serial Port.
+2018-07-22T14:18:36.760402 tid11028 [IFO,App] GenericSLM
+2018-07-22T14:18:36.762404 tid11028 [IFO,App]    GenericSLM, Spatial Light Modulator controlled through computer graphics output
+2018-07-22T14:18:36.762404 tid11028 [IFO,App] GigECamera
+2018-07-22T14:18:36.766407 tid11028 [IFO,App] Error: Unable to load GigECamera library: Failed to load device adapter "GigECamera" [ Failed to load module "C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmgr_dal_GigECamera.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2018-07-22T14:18:36.766407 tid11028 [IFO,App] HamamatsuHam
+2018-07-22T14:18:36.766407 tid11028 [IFO,App]    HamamatsuHam_DCAM, Universal adapter using Hamamatsu DCAM interface
+2018-07-22T14:18:36.766407 tid11028 [IFO,App] HIDManager
+2018-07-22T14:18:36.777877 tid11028 [IFO,App] HoribaEPIX
+2018-07-22T14:18:36.788433 tid11028 [IFO,App]    Horiba EFIS Camera, Horiba EFIS Camera
+2018-07-22T14:18:36.788433 tid11028 [IFO,App]    Horiba ATOR Camera, Horiba ATOR Camera
+2018-07-22T14:18:36.788433 tid11028 [IFO,App]    Horiba IRIS Camera, Horiba IRIS Camera
+2018-07-22T14:18:36.788433 tid11028 [IFO,App]    Horiba IRIS RGB Camera, Horiba IRIS RGB Camera
+2018-07-22T14:18:36.788433 tid11028 [IFO,App] IDS_uEye
+2018-07-22T14:18:36.791436 tid11028 [IFO,App] Error: Unable to load IDS_uEye library: Failed to load device adapter "IDS_uEye" [ Failed to load module "C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmgr_dal_IDS_uEye.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2018-07-22T14:18:36.791436 tid11028 [IFO,App] IIDC
+2018-07-22T14:18:36.796441 tid11028 [IFO,App] Error: Unable to load IIDC library: Failed to load device adapter "IIDC" [ Failed to load module "C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmgr_dal_IIDC.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2018-07-22T14:18:36.796441 tid11028 [IFO,App] ImageProcessorChain
+2018-07-22T14:18:36.799443 tid11028 [IFO,App]    ImageProcessorChain, ImageProcessorChain
+2018-07-22T14:18:36.799443 tid11028 [IFO,App] K8055
+2018-07-22T14:18:36.802446 tid11028 [IFO,App]    K8055-Hub, Hub
+2018-07-22T14:18:36.802446 tid11028 [IFO,App]    K8055-Switch, Switch
+2018-07-22T14:18:36.802446 tid11028 [IFO,App]    K8055-Shutter, Shutter
+2018-07-22T14:18:36.802446 tid11028 [IFO,App]    K8055-DAC-1, DA-1
+2018-07-22T14:18:36.802446 tid11028 [IFO,App]    K8055-DAC-2, DA-2
+2018-07-22T14:18:36.802446 tid11028 [IFO,App]    K8055-Input, Digital Input
+2018-07-22T14:18:36.802446 tid11028 [IFO,App] K8061
+2018-07-22T14:18:36.804448 tid11028 [IFO,App]    K8061-Hub, Hub
+2018-07-22T14:18:36.804448 tid11028 [IFO,App]    K8061-Switch, Switch
+2018-07-22T14:18:36.804448 tid11028 [IFO,App]    K8061-Shutter, Shutter
+2018-07-22T14:18:36.804448 tid11028 [IFO,App]    K8061-DAC, DA
+2018-07-22T14:18:36.804448 tid11028 [IFO,App]    K8061-Input, Input
+2018-07-22T14:18:36.804448 tid11028 [IFO,App] KDV
+2018-07-22T14:18:36.807445 tid11028 [IFO,App]    KDVZStage, Focus drive for Meiji Techno EMZ
+2018-07-22T14:18:36.807445 tid11028 [IFO,App] LeicaDMI
+2018-07-22T14:18:36.811450 tid11028 [IFO,App]    Scope, Leica DMI microscope controlled through serial interface
+2018-07-22T14:18:36.811450 tid11028 [IFO,App]    TL-Shutter, Transmitted Light Shutter
+2018-07-22T14:18:36.811450 tid11028 [IFO,App]    IL-Shutter, Incident Light Shutter
+2018-07-22T14:18:36.811450 tid11028 [IFO,App]    IL-Turret, Reflector Turret (dichroics)
+2018-07-22T14:18:36.811450 tid11028 [IFO,App]    ObjectiveTurret, Objective Turret
+2018-07-22T14:18:36.811450 tid11028 [IFO,App]    FastFilterWheel, Fast Filter Wheel
+2018-07-22T14:18:36.811450 tid11028 [IFO,App]    FocusDrive, Z-drive
+2018-07-22T14:18:36.811450 tid11028 [IFO,App]    XYStage, XYStage
+2018-07-22T14:18:36.811450 tid11028 [IFO,App]    TL-FieldDiaphragm, Field Diaphragm (Trans)
+2018-07-22T14:18:36.811450 tid11028 [IFO,App]    TL-ApertureDiaphragm, Aperture Diaphragm (Condensor)
+2018-07-22T14:18:36.811450 tid11028 [IFO,App]    IL-FieldDiaphragm, Field Diaphragm (Fluorescence)
+2018-07-22T14:18:36.811450 tid11028 [IFO,App]    IL-ApertureDiaphragm, Aperture Diaphragm (Fluorescence)
+2018-07-22T14:18:36.811450 tid11028 [IFO,App]    MagnificationChanger, Tube Lens (magnification changer)
+2018-07-22T14:18:36.811450 tid11028 [IFO,App]    TLPolarizer, Transmitted light Polarizer
+2018-07-22T14:18:36.811450 tid11028 [IFO,App]    DIC Turret, DIC Turret
+2018-07-22T14:18:36.811450 tid11028 [IFO,App]    Condensor, Condensor Turret
+2018-07-22T14:18:36.811450 tid11028 [IFO,App]    Transmitted Light, Transmitted Light
+2018-07-22T14:18:36.811450 tid11028 [IFO,App]    Adaptive Focus Control, Adaptive Focus Control
+2018-07-22T14:18:36.811450 tid11028 [IFO,App]    SidePort, Side Port
+2018-07-22T14:18:36.811450 tid11028 [IFO,App] LeicaDMR
+2018-07-22T14:18:36.813452 tid11028 [IFO,App]    Leica DM microscope, LeicaDMR (DM RXA, DM RME, RD RBE, DM RXA, DM RA, DM IRBE) Controller
+2018-07-22T14:18:36.813452 tid11028 [IFO,App]    Reflected Light Module, Reflected Light LModule
+2018-07-22T14:18:36.813452 tid11028 [IFO,App]    Halogen Lamp, Halogen Lamp
+2018-07-22T14:18:36.813452 tid11028 [IFO,App]    Shutter, Reflected Light Shutter
+2018-07-22T14:18:36.813452 tid11028 [IFO,App]    Z Drive, Z Drive
+2018-07-22T14:18:36.813452 tid11028 [IFO,App]    Objective Nosepiece, Objective Nosepiece
+2018-07-22T14:18:36.813452 tid11028 [IFO,App]    Aperture Diaphragm, Aperture Diaphragm
+2018-07-22T14:18:36.813452 tid11028 [IFO,App]    Field Diaphragm, Field Diaphragm
+2018-07-22T14:18:36.813452 tid11028 [IFO,App] LeicaDMSTC
+2018-07-22T14:18:36.816455 tid11028 [IFO,App]    Leica DMSTC stage hub, LeicaDMSTC Controller
+2018-07-22T14:18:36.816455 tid11028 [IFO,App]    Leica DMSTC XY stage, XY Drive
+2018-07-22T14:18:36.816455 tid11028 [IFO,App] Ludl
+2018-07-22T14:18:36.819458 tid11028 [IFO,App]    LudlController, Ludl Controller
+2018-07-22T14:18:36.819458 tid11028 [IFO,App]    LudlShutter, Ludl Shutter
+2018-07-22T14:18:36.819458 tid11028 [IFO,App]    LudlWheel, Ludl Filter Wheel
+2018-07-22T14:18:36.819458 tid11028 [IFO,App]    XYStage, XY Stage
+2018-07-22T14:18:36.819458 tid11028 [IFO,App]    Stage, Single Axis Stage
+2018-07-22T14:18:36.819458 tid11028 [IFO,App] LudlLow
+2018-07-22T14:18:36.822461 tid11028 [IFO,App]    LudlController, Ludl Controller
+2018-07-22T14:18:36.822461 tid11028 [IFO,App]    LudlShutter, Ludl Shutter
+2018-07-22T14:18:36.822461 tid11028 [IFO,App]    LudlWheel, Ludl Filter Wheel
+2018-07-22T14:18:36.822461 tid11028 [IFO,App] LumencorCIA
+2018-07-22T14:18:36.824462 tid11028 [IFO,App]    CIA, Lumencor Camera Interface Adapter
+2018-07-22T14:18:36.824462 tid11028 [IFO,App] LumencorSpectra
+2018-07-22T14:18:36.827466 tid11028 [IFO,App]    Spectra, Lumencor Spectra Light Engine
+2018-07-22T14:18:36.827466 tid11028 [IFO,App] MaestroServo
+2018-07-22T14:18:36.830468 tid11028 [IFO,App]    MaestroServo, Pololu MaestroServo controller
+2018-07-22T14:18:36.830468 tid11028 [IFO,App]    MaestroServoAsShutter, Pololu MaestroServo as shutter
+2018-07-22T14:18:36.830468 tid11028 [IFO,App] Marzhauser
+2018-07-22T14:18:36.833471 tid11028 [IFO,App]    XYStage, Tango XY Stage
+2018-07-22T14:18:36.833471 tid11028 [IFO,App]    ZAxis, Tango Z Axis
+2018-07-22T14:18:36.833471 tid11028 [IFO,App]    AAxis, Tango A Axis
+2018-07-22T14:18:36.833471 tid11028 [IFO,App]    TTLShutter, Tango TTL Shutter
+2018-07-22T14:18:36.833471 tid11028 [IFO,App]    LED100-1, Tango LED100-1 [0..100%]
+2018-07-22T14:18:36.833471 tid11028 [IFO,App]    LED100-2, Tango LED100-2 [0..100%]
+2018-07-22T14:18:36.833471 tid11028 [IFO,App]    DAC, Tango DAC [0..10V]
+2018-07-22T14:18:36.833471 tid11028 [IFO,App]    ADC, Tango ADC [0..5V]
+2018-07-22T14:18:36.833471 tid11028 [IFO,App] MarzhauserLStep
+2018-07-22T14:18:36.836474 tid11028 [IFO,App]    XYStage, LStep XY Stage
+2018-07-22T14:18:36.836474 tid11028 [IFO,App]    ZAxis, LStep Z Axis
+2018-07-22T14:18:36.836474 tid11028 [IFO,App] MCCDAQ
+2018-07-22T14:18:36.838476 tid11028 [IFO,App] Error: Unable to load MCCDAQ library: Failed to load device adapter "MCCDAQ" [ Failed to load module "C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmgr_dal_MCCDAQ.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2018-07-22T14:18:36.838476 tid11028 [IFO,App] MCL_MicroDrive
+2018-07-22T14:18:36.844482 tid11028 [IFO,App]    MicroDrive XY Stage, XY positioning
+2018-07-22T14:18:36.844482 tid11028 [IFO,App]    MicroDrive Z Stage, Z positioning
+2018-07-22T14:18:36.844482 tid11028 [IFO,App] MCL_NanoDrive
+2018-07-22T14:18:36.851489 tid11028 [IFO,App]    MCL NanoDrive Z Stage, Z positioning
+2018-07-22T14:18:36.851489 tid11028 [IFO,App]    MCL NanoDrive XY Stage, XY positioning
+2018-07-22T14:18:36.851489 tid11028 [IFO,App] Micropix
+2018-07-22T14:18:36.854491 tid11028 [IFO,App] Error: Unable to load Micropix library: Failed to load device adapter "Micropix" [ Failed to load module "C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmgr_dal_Micropix.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2018-07-22T14:18:36.854491 tid11028 [IFO,App] MicroPoint
+2018-07-22T14:18:36.856493 tid11028 [IFO,App]    MicroPoint, MicroPoint
+2018-07-22T14:18:36.856493 tid11028 [IFO,App] Mightex
+2018-07-22T14:18:36.859563 tid11028 [IFO,App]    Mightex_SLC(USB), Mightex Sirius SLC LED Driver(USB)
+2018-07-22T14:18:36.859563 tid11028 [IFO,App] MightexPolygon
+2018-07-22T14:18:36.862565 tid11028 [IFO,App] Error: Unable to load MightexPolygon library: Failed to load device adapter "MightexPolygon" [ Failed to load module "C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmgr_dal_MightexPolygon.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2018-07-22T14:18:36.862565 tid11028 [IFO,App] Mightex_BLS
+2018-07-22T14:18:36.865568 tid11028 [IFO,App]    Mightex_SLC(USB), Mightex Sirius SLC LED Driver(USB)
+2018-07-22T14:18:36.865568 tid11028 [IFO,App]    Mightex_BLS(USB), Mightex Sirius BLS Control Module(USB)
+2018-07-22T14:18:36.865568 tid11028 [IFO,App] Mightex_C_Cam
+2018-07-22T14:18:36.868571 tid11028 [IFO,App]    Mightex_BUF_USBCCDCamera, Mightex Buffer USB CCD Camera
+2018-07-22T14:18:36.868571 tid11028 [IFO,App] Mosaic3
+2018-07-22T14:18:36.871574 tid11028 [IFO,App]    Mosaic3, Andor Mosaic3 DMD Device
+2018-07-22T14:18:36.871574 tid11028 [IFO,App] MoticCamera
+2018-07-22T14:18:36.874577 tid11028 [IFO,App] Error: Unable to load MoticCamera library: Failed to load device adapter "MoticCamera" [ Failed to load module "C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmgr_dal_MoticCamera.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2018-07-22T14:18:36.874577 tid11028 [IFO,App] MoticMicroscope
+2018-07-22T14:18:36.877949 tid11028 [IFO,App] Error: Unable to load MoticMicroscope library: Failed to load device adapter "MoticMicroscope" [ Failed to load module "C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmgr_dal_MoticMicroscope.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2018-07-22T14:18:36.877949 tid11028 [IFO,App] MP285
+2018-07-22T14:18:36.880952 tid11028 [IFO,App]    MP285 Controller, MP285 Controller
+2018-07-22T14:18:36.880952 tid11028 [IFO,App]    MP285 XY Stage, MP285 XY Stage
+2018-07-22T14:18:36.880952 tid11028 [IFO,App]    MP285 Z Stage, MP285 Z Stage
+2018-07-22T14:18:36.880952 tid11028 [IFO,App] MT20
+2018-07-22T14:18:36.883955 tid11028 [IFO,App]    MT20-HUB, Olympus MT20 hub device
+2018-07-22T14:18:36.883955 tid11028 [IFO,App]    MT20-Burner, Olympus MT20 burner
+2018-07-22T14:18:36.883955 tid11028 [IFO,App]    MT20-Shutter, Olympus MT20 shutter
+2018-07-22T14:18:36.883955 tid11028 [IFO,App]    MT20-Filterwheel, Olympus MT20 filterwheel
+2018-07-22T14:18:36.883955 tid11028 [IFO,App]    MT20-Attenuator, Olympus MT20 attenuator
+2018-07-22T14:18:36.883955 tid11028 [IFO,App] Neos
+2018-07-22T14:18:36.885956 tid11028 [IFO,App]    Neos, Neos controller with USB
+2018-07-22T14:18:36.885956 tid11028 [IFO,App] NewportCONEX
+2018-07-22T14:18:36.888960 tid11028 [IFO,App]    XAxis, Conex_Axis X Axis
+2018-07-22T14:18:36.888960 tid11028 [IFO,App]    YAxis, Conex_Axis Y Axis
+2018-07-22T14:18:36.888960 tid11028 [IFO,App]    ZAxis, Conex_Axis Z Axis
+2018-07-22T14:18:36.888960 tid11028 [IFO,App] NewportSMC
+2018-07-22T14:18:36.890961 tid11028 [IFO,App]    NewportZStage, Newport SMC100CC controller
+2018-07-22T14:18:36.890961 tid11028 [IFO,App] NI100X
+2018-07-22T14:18:36.980695 tid11028 [IFO,App]    DigitalIO, NI digital IO
+2018-07-22T14:18:36.980695 tid11028 [IFO,App]    AnalogIO, NI analog IO
+2018-07-22T14:18:36.980695 tid11028 [IFO,App] Nikon
+2018-07-22T14:18:36.983666 tid11028 [IFO,App]    ZStage, Remote accessory Z-stage
+2018-07-22T14:18:36.983666 tid11028 [IFO,App]    TIRFShutter, TIRF Laser Shutter controller T-LUSU(2)
+2018-07-22T14:18:36.983666 tid11028 [IFO,App]    TiTIRFShutter, Ti-TIRF Laser Shutter controller T-LUSU(2)
+2018-07-22T14:18:36.983666 tid11028 [IFO,App]    IntensiLightShutter, IntensiLight Shutter
+2018-07-22T14:18:36.984667 tid11028 [IFO,App] NikonAZ100
+2018-07-22T14:18:36.986669 tid11028 [IFO,App]    AZ100, AZ100 controller - required for all other devices
+2018-07-22T14:18:36.986669 tid11028 [IFO,App]    Nosepiece, Nosepiece (objective turret)
+2018-07-22T14:18:36.986669 tid11028 [IFO,App]    Focus, Z-stage
+2018-07-22T14:18:36.986669 tid11028 [IFO,App]    Zoom, Zoom
+2018-07-22T14:18:36.986669 tid11028 [IFO,App] NikonEclipse90i
+2018-07-22T14:18:36.990504 tid11028 [IFO,App]    Eclipse90i, Eclipse90i controller - required for all other devices
+2018-07-22T14:18:36.990504 tid11028 [IFO,App]    Nosepiece, Nosepiece (objective turret)
+2018-07-22T14:18:36.990504 tid11028 [IFO,App]    Focus, Z-stage control
+2018-07-22T14:18:36.990504 tid11028 [IFO,App]    OpticalPath, Optical path switch - camera, eyepiece, etc.
+2018-07-22T14:18:36.990504 tid11028 [IFO,App]    Analyzer, Analyzer control
+2018-07-22T14:18:36.990504 tid11028 [IFO,App]    Transmitted Light, Transmitted Light control
+2018-07-22T14:18:36.990504 tid11028 [IFO,App]    Zoom, Zoom
+2018-07-22T14:18:36.990504 tid11028 [IFO,App]    DIA Field Stop, Transmitted Light Field Stop
+2018-07-22T14:18:36.990504 tid11028 [IFO,App]    EPI Field Stop, Epi-fluorescence Field Stop
+2018-07-22T14:18:36.990504 tid11028 [IFO,App]    FilterBlock, Filter changer
+2018-07-22T14:18:36.990504 tid11028 [IFO,App]    Epi-Shutter, Epi-fluorescence shutter
+2018-07-22T14:18:36.990504 tid11028 [IFO,App] NikonTE2000
+2018-07-22T14:18:36.992506 tid11028 [IFO,App]    TE2000, TE2000 controller - required for all other devices
+2018-07-22T14:18:36.992506 tid11028 [IFO,App]    Nosepiece, Nosepiece (objective turret)
+2018-07-22T14:18:36.992506 tid11028 [IFO,App]    Focus, Z-stage
+2018-07-22T14:18:36.992506 tid11028 [IFO,App]    OpticalPath, Optical path switch - camera, eyepiece, etc.
+2018-07-22T14:18:36.992506 tid11028 [IFO,App]    Analyzer, Analyzer control
+2018-07-22T14:18:36.992506 tid11028 [IFO,App]    FilterBlock, Filter changer
+2018-07-22T14:18:36.992506 tid11028 [IFO,App]    Lamp, Halogen lamp
+2018-07-22T14:18:36.992506 tid11028 [IFO,App]    Epi-Shutter, Epi-fluorescence shutter
+2018-07-22T14:18:36.992506 tid11028 [IFO,App]    Uniblitz-Shutter, Uniblitz shutter
+2018-07-22T14:18:36.992506 tid11028 [IFO,App]    PerfectFocus, PFS autofocus device
+2018-07-22T14:18:36.992506 tid11028 [IFO,App]    PFS-Offset, PFS Offset Lens
+2018-07-22T14:18:36.992506 tid11028 [IFO,App]    Excitation Filter wheel, Nikon excitation side filter changer
+2018-07-22T14:18:36.992506 tid11028 [IFO,App] NikonTI
+2018-07-22T14:18:36.998512 tid11028 [IFO,App]    TIScope, Nikon Ti Microscope
+2018-07-22T14:18:36.998512 tid11028 [IFO,App]    TIAnalyzer, Analyzer
+2018-07-22T14:18:36.998512 tid11028 [IFO,App]    TIEpiShutter, Epi Shutter
+2018-07-22T14:18:36.998512 tid11028 [IFO,App]    TIDiaShutter, Dia Shutter
+2018-07-22T14:18:36.998512 tid11028 [IFO,App]    TIAuxShutter, Aux Shutter
+2018-07-22T14:18:36.998512 tid11028 [IFO,App]    TIDiaLamp, Dia Lamp
+2018-07-22T14:18:36.998512 tid11028 [IFO,App]    TINosePiece, Objective Turret
+2018-07-22T14:18:36.998512 tid11028 [IFO,App]    TICondenserCassette, Condenser Cassette
+2018-07-22T14:18:36.998512 tid11028 [IFO,App]    TIBarrierFilterWheel, Barrier Filter Wheel
+2018-07-22T14:18:36.998512 tid11028 [IFO,App]    TIExcitationFilterWheel, Excitation Filter Wheel
+2018-07-22T14:18:36.998512 tid11028 [IFO,App]    TIFilterBlock1, Filter Block Cassette 1
+2018-07-22T14:18:36.998512 tid11028 [IFO,App]    TIFilterBlock2, Filter Block Cassette 2
+2018-07-22T14:18:36.998512 tid11028 [IFO,App]    TILightPath, Light Path Drive
+2018-07-22T14:18:36.998512 tid11028 [IFO,App]    TIZDrive, Z-Stage
+2018-07-22T14:18:36.998512 tid11028 [IFO,App]    TIXYDrive, XY-Stage
+2018-07-22T14:18:36.998512 tid11028 [IFO,App]    TIPFSOffset, PFS Offset
+2018-07-22T14:18:36.998512 tid11028 [IFO,App]    TIPFSStatus, PFS Status
+2018-07-22T14:18:36.998512 tid11028 [IFO,App]    TITIRF, TIRF
+2018-07-22T14:18:36.998512 tid11028 [IFO,App] NNLC
+2018-07-22T14:18:37.001515 tid11028 [IFO,App]    LC-Shutter, Shutter
+2018-07-22T14:18:37.001515 tid11028 [IFO,App]    LC-DAC, DA
+2018-07-22T14:18:37.001515 tid11028 [IFO,App]    LC-Setup, Setup
+2018-07-22T14:18:37.001515 tid11028 [IFO,App] NPointC400
+2018-07-22T14:18:37.004056 tid11028 [IFO,App]    nPoint C400 Controller, nPoint C400 Controller
+2018-07-22T14:18:37.004056 tid11028 [IFO,App]    Stage 1, Stage 1
+2018-07-22T14:18:37.004056 tid11028 [IFO,App]    Stage 2, Stage 2
+2018-07-22T14:18:37.004056 tid11028 [IFO,App]    Stage 3, Stage 3
+2018-07-22T14:18:37.004056 tid11028 [IFO,App]    Stage 4, Stage 4
+2018-07-22T14:18:37.004056 tid11028 [IFO,App]    Stage 5, Stage 5
+2018-07-22T14:18:37.004056 tid11028 [IFO,App]    Stage 6, Stage 6
+2018-07-22T14:18:37.004056 tid11028 [IFO,App] ObjectiveImaging
+2018-07-22T14:18:37.007059 tid11028 [IFO,App] Error: Unable to load ObjectiveImaging library: Failed to load device adapter "ObjectiveImaging" [ Failed to load module "C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmgr_dal_ObjectiveImaging.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2018-07-22T14:18:37.007059 tid11028 [IFO,App] Okolab
+2018-07-22T14:18:37.010062 tid11028 [IFO,App]    OKO Control Server, Okolab OKO Control Server
+2018-07-22T14:18:37.010062 tid11028 [IFO,App]    CO2 Unit-BL, Okolab CO2 Unit-BL
+2018-07-22T14:18:37.010062 tid11028 [IFO,App]    O2 Unit-BL, Okolab O2 Unit-BL
+2018-07-22T14:18:37.010062 tid11028 [IFO,App]    H201-T Unit-BL, Okolab H201 T Unit-BL
+2018-07-22T14:18:37.010062 tid11028 [IFO,App]    CO2-O2 Unit-BL [0-10;1-18], Okolab CO2-O2 Unit-BL [0-10;1-18]
+2018-07-22T14:18:37.010062 tid11028 [IFO,App]    CO2-O2 Unit-BL [0-20;1-95], Okolab CO2-O2 Unit-BL [0-20;1-95]
+2018-07-22T14:18:37.010062 tid11028 [IFO,App]    H301-T Unit-BL, Okolab H301 T Unit-BL
+2018-07-22T14:18:37.010062 tid11028 [IFO,App]    H301-HM-ACTIVE, Okolab H301-HM-ACTIVE
+2018-07-22T14:18:37.010062 tid11028 [IFO,App] Olympus
+2018-07-22T14:18:37.013065 tid11028 [IFO,App]    OlympusHub, Olympus Hub - required for all other devices
+2018-07-22T14:18:37.013065 tid11028 [IFO,App]    Objective, Objective turret
+2018-07-22T14:18:37.013065 tid11028 [IFO,App]    LightPath, Light path prism (eye/camera)
+2018-07-22T14:18:37.013065 tid11028 [IFO,App]    FilterCube, Fluorescence filter cube turret
+2018-07-22T14:18:37.013065 tid11028 [IFO,App]    Condenser, Transmitted light condenser turret
+2018-07-22T14:18:37.013065 tid11028 [IFO,App]    FilterWheel, Fluorescence filter wheel for IX/ First wheel for BX
+2018-07-22T14:18:37.013065 tid11028 [IFO,App]    FilterWheel2BX, Second filter wheel for BX
+2018-07-22T14:18:37.013065 tid11028 [IFO,App]    FilterWheel3BX, Third filter wheel for BX
+2018-07-22T14:18:37.013065 tid11028 [IFO,App]    Shutter1, Shutter number 1
+2018-07-22T14:18:37.013065 tid11028 [IFO,App]    Shutter2, Shutter number 2
+2018-07-22T14:18:37.013065 tid11028 [IFO,App]    ShutterBX, Shutter For BX2
+2018-07-22T14:18:37.013065 tid11028 [IFO,App]    BottomPort, Bottom port open/close
+2018-07-22T14:18:37.013065 tid11028 [IFO,App]    TransmittedLamp, Transmitted light lamp (voltage/on/off)
+2018-07-22T14:18:37.013065 tid11028 [IFO,App]    FluorescenceLamp, Epifluorescence lamp (voltage/on/off)
+2018-07-22T14:18:37.013065 tid11028 [IFO,App]    ManualFocus, Z-drive (jog wheel)
+2018-07-22T14:18:37.013065 tid11028 [IFO,App]    CondenserApertureStop, Condenser Aperture Stop
+2018-07-22T14:18:37.013065 tid11028 [IFO,App]    AutoFocusZDC, ZDC (Auto Focus)
+2018-07-22T14:18:37.013065 tid11028 [IFO,App]    ZDC2OffsetDrive, ZDC2 Offset Drive
+2018-07-22T14:18:37.013065 tid11028 [IFO,App] OlympusIX83
+2018-07-22T14:18:37.018070 tid11028 [IFO,App]    Olympus IX83, Olympus IX83 Microscope
+2018-07-22T14:18:37.018070 tid11028 [IFO,App]    Objective, Objective turret (nosepiece)
+2018-07-22T14:18:37.018070 tid11028 [IFO,App]    Dichroic 1, Mirror unit deck 1
+2018-07-22T14:18:37.018070 tid11028 [IFO,App]    Dichroic 2, Mirror unit deck 2
+2018-07-22T14:18:37.018070 tid11028 [IFO,App]    Condenser turret, Rotating condenser turret
+2018-07-22T14:18:37.018070 tid11028 [IFO,App]    Polarizer, Polarizer in/out device
+2018-07-22T14:18:37.018070 tid11028 [IFO,App]    Transmitted ND Wheel, Neutral density filter wheel for transmitted path.
+2018-07-22T14:18:37.018070 tid11028 [IFO,App]    Reflected ND Wheel, Neutral density filter wheel for reflected path.
+2018-07-22T14:18:37.018070 tid11028 [IFO,App]    Light Path, Switches light between camera and eyepiece.
+2018-07-22T14:18:37.018070 tid11028 [IFO,App]    Filter Wheel 1, A filter wheel
+2018-07-22T14:18:37.018070 tid11028 [IFO,App]    Filter Wheel 2, A filter wheel
+2018-07-22T14:18:37.018070 tid11028 [IFO,App]    Filter Wheel 3, A filter wheel
+2018-07-22T14:18:37.018070 tid11028 [IFO,App]    Filter Wheel 4, A filter wheel
+2018-07-22T14:18:37.018070 tid11028 [IFO,App]    Filter Wheel 5, A filter wheel
+2018-07-22T14:18:37.018070 tid11028 [IFO,App]    Filter Wheel 6, A filter wheel
+2018-07-22T14:18:37.018070 tid11028 [IFO,App]    EpiShutter 1, Epi shutter, deck 1
+2018-07-22T14:18:37.018070 tid11028 [IFO,App]    EpiShutter 2, Epi shutter, deck 2
+2018-07-22T14:18:37.018070 tid11028 [IFO,App]    DiaShutter, Dia shutter
+2018-07-22T14:18:37.018070 tid11028 [IFO,App]    FastShutter 1, Fast shutter 1
+2018-07-22T14:18:37.018070 tid11028 [IFO,App]    FastShutter 2, Fast shutter 2
+2018-07-22T14:18:37.018070 tid11028 [IFO,App]    FastShutter 3, Fast shutter 3
+2018-07-22T14:18:37.018070 tid11028 [IFO,App]    FastShutter 4, Fast shutter 4
+2018-07-22T14:18:37.018070 tid11028 [IFO,App]    TransmittedIllumination 1, DIA High Intensity White LED 1
+2018-07-22T14:18:37.018070 tid11028 [IFO,App]    TransmittedIllumination 2, DIA High Intensity White LED 2
+2018-07-22T14:18:37.018070 tid11028 [IFO,App]    Transmitted Aperture, Transmitted Aperture control
+2018-07-22T14:18:37.018070 tid11028 [IFO,App]    FocusDrive, Olympus IX83 Z drive
+2018-07-22T14:18:37.018070 tid11028 [IFO,App]    XYStage, Olympus IX83 XY stage
+2018-07-22T14:18:37.018070 tid11028 [IFO,App]    Autofocus, Olympus IX83 ZDC
+2018-07-22T14:18:37.018070 tid11028 [IFO,App]    AutofocusDrive, Olympus IX83 ZDC offset drive
+2018-07-22T14:18:37.018070 tid11028 [IFO,App] Omicron
+2018-07-22T14:18:37.021073 tid11028 [IFO,App]    Omicron, Omicron Laser Controller
+2018-07-22T14:18:37.021073 tid11028 [IFO,App] OpenCVgrabber
+2018-07-22T14:18:37.040433 tid11028 [IFO,App]    OpenCVgrabber, OpenCVgrabber video input
+2018-07-22T14:18:37.040433 tid11028 [IFO,App] OVP_ECS2
+2018-07-22T14:18:37.043436 tid11028 [IFO,App]    ECS-2, OVP ECS-2
+2018-07-22T14:18:37.043436 tid11028 [IFO,App] Oxxius
+2018-07-22T14:18:37.045438 tid11028 [IFO,App]    Oxxius LBX-LD, Oxxius LBX-LD Laser Controller
+2018-07-22T14:18:37.045438 tid11028 [IFO,App]    Oxxius LBX-DPSS, Oxxius LBX-DPSS Laser Controller
+2018-07-22T14:18:37.045438 tid11028 [IFO,App] ParallelPort
+2018-07-22T14:18:37.048727 tid11028 [IFO,App]    LPT1, Printer port TTL digital output
+2018-07-22T14:18:37.048727 tid11028 [IFO,App]    LPT-Shutter, Printer port TTLs used as shutters
+2018-07-22T14:18:37.048727 tid11028 [IFO,App] PCO_Camera
+2018-07-22T14:18:37.059737 tid11028 [IFO,App]    pco_camera, PCO generic camera adapter
+2018-07-22T14:18:37.059737 tid11028 [IFO,App] Pecon
+2018-07-22T14:18:37.062740 tid11028 [IFO,App]    TempControl, Temperature controller 37-2 digital
+2018-07-22T14:18:37.062740 tid11028 [IFO,App]    CTIController3700, CTI controller 3700 digital
+2018-07-22T14:18:37.062740 tid11028 [IFO,App]    CO2Controller, CO2 controller
+2018-07-22T14:18:37.062740 tid11028 [IFO,App] pgFocus
+2018-07-22T14:18:37.065743 tid11028 [IFO,App]    pgFocus, Hub (required)
+2018-07-22T14:18:37.065743 tid11028 [IFO,App]    pgFocus-Stabilization, Focus Stabilization
+2018-07-22T14:18:37.065743 tid11028 [IFO,App] PI
+2018-07-22T14:18:37.067745 tid11028 [IFO,App]    PIZStage, PI E-662 Z-stage
+2018-07-22T14:18:37.067745 tid11028 [IFO,App] PICAM
+2018-07-22T14:18:37.070748 tid11028 [IFO,App] Error: Unable to load PICAM library: Failed to load device adapter "PICAM" [ Failed to load module "C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmgr_dal_PICAM.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2018-07-22T14:18:37.070748 tid11028 [IFO,App] PicardStage
+2018-07-22T14:18:37.081758 tid11028 [IFO,App]    Picard Twister, Twister
+2018-07-22T14:18:37.081758 tid11028 [IFO,App]    Picard Z Stage, Z stage
+2018-07-22T14:18:37.081758 tid11028 [IFO,App]    Picard XY Stage, XY stage
+2018-07-22T14:18:37.081758 tid11028 [IFO,App] Piezosystem_30DV50
+2018-07-22T14:18:37.083761 tid11028 [IFO,App]    PSJStage, Single Axis Stage
+2018-07-22T14:18:37.083761 tid11028 [IFO,App]    PSJShutter, PSJ Shutter
+2018-07-22T14:18:37.083761 tid11028 [IFO,App] Piezosystem_dDrive
+2018-07-22T14:18:37.087764 tid11028 [IFO,App]    PSJ_dDrive, Piezosystem Jena dDrive
+2018-07-22T14:18:37.087764 tid11028 [IFO,App]    PSJ_Stage1, Single Axis Stage Ch1
+2018-07-22T14:18:37.087764 tid11028 [IFO,App]    PSJ_Stage2, Single Axis Stage Ch2
+2018-07-22T14:18:37.087764 tid11028 [IFO,App]    PSJ_Stage3, Single Axis Stage Ch3
+2018-07-22T14:18:37.087764 tid11028 [IFO,App]    PSJ_Stage4, Single Axis Stage Ch4
+2018-07-22T14:18:37.087764 tid11028 [IFO,App]    PSJ_Stage5, Single Axis Stage Ch5
+2018-07-22T14:18:37.087764 tid11028 [IFO,App]    PSJ_Stage6, Single Axis Stage Ch6
+2018-07-22T14:18:37.087764 tid11028 [IFO,App]    PSJ_XYStage1, Two Axis XY Stage1
+2018-07-22T14:18:37.087764 tid11028 [IFO,App]    PSJ_XYStage2, Two Axis XY Stage2
+2018-07-22T14:18:37.087764 tid11028 [IFO,App]    PSJ_XYStage3, Two Axis XY Stage3
+2018-07-22T14:18:37.087764 tid11028 [IFO,App]    PSJ_Shutter1, PSJ Shutter
+2018-07-22T14:18:37.087764 tid11028 [IFO,App]    PSJ_Shutter2, PSJ Shutter
+2018-07-22T14:18:37.087764 tid11028 [IFO,App]    PSJ_Shutter3, PSJ Shutter
+2018-07-22T14:18:37.087764 tid11028 [IFO,App]    PSJ_Shutter4, PSJ Shutter
+2018-07-22T14:18:37.087764 tid11028 [IFO,App]    PSJ_Shutter5, PSJ Shutter
+2018-07-22T14:18:37.087764 tid11028 [IFO,App]    PSJ_Shutter6, PSJ Shutter
+2018-07-22T14:18:37.087764 tid11028 [IFO,App]    PSJ_Tritor1, PSJ Tritor
+2018-07-22T14:18:37.087764 tid11028 [IFO,App]    PSJ_Tritor2, PSJ Tritor
+2018-07-22T14:18:37.087764 tid11028 [IFO,App] Piezosystem_NV120_1
+2018-07-22T14:18:37.089766 tid11028 [IFO,App]    PSJ_Stage, Single Axis Stage Ch1
+2018-07-22T14:18:37.089766 tid11028 [IFO,App] Piezosystem_NV40_1
+2018-07-22T14:18:37.092769 tid11028 [IFO,App]    PSJ_Stage, Single Axis Stage Ch1
+2018-07-22T14:18:37.092769 tid11028 [IFO,App] Piezosystem_NV40_3
+2018-07-22T14:18:37.095772 tid11028 [IFO,App]    PSJ_NV40/3, Piezosystem Jena NV40 Multi
+2018-07-22T14:18:37.095772 tid11028 [IFO,App]    PSJ_Stage1, Single Axis Stage Ch1
+2018-07-22T14:18:37.095772 tid11028 [IFO,App]    PSJ_Stage2, Single Axis Stage Ch2
+2018-07-22T14:18:37.095772 tid11028 [IFO,App]    PSJ_Stage3, Single Axis Stage Ch3
+2018-07-22T14:18:37.095772 tid11028 [IFO,App]    PSJ_XYStage, Two Axis XY Stage
+2018-07-22T14:18:37.095772 tid11028 [IFO,App] Piper
+2018-07-22T14:18:37.098775 tid11028 [IFO,App] Error: Unable to load Piper library: Failed to load device adapter "Piper" [ Failed to load module "C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmgr_dal_Piper.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2018-07-22T14:18:37.098775 tid11028 [IFO,App] PI_GCS
+2018-07-22T14:18:37.101778 tid11028 [IFO,App]    PIZStage, PI GCS Z-stage
+2018-07-22T14:18:37.101778 tid11028 [IFO,App] PI_GCS_2
+2018-07-22T14:18:37.103780 tid11028 [IFO,App]    PIZStage, PI GCS Z-stage
+2018-07-22T14:18:37.103780 tid11028 [IFO,App]    PIXYStage, PI GCS XY-stage
+2018-07-22T14:18:37.103780 tid11028 [IFO,App]    PI_GCSController_DLL, PI GCS DLL Controller
+2018-07-22T14:18:37.103780 tid11028 [IFO,App]    PI_GCSController, PI GCS Controller
+2018-07-22T14:18:37.103780 tid11028 [IFO,App]    C-663.11, PI C-663.11 Controller
+2018-07-22T14:18:37.103780 tid11028 [IFO,App]    C-843, PI C-843 Controller
+2018-07-22T14:18:37.103780 tid11028 [IFO,App]    C-863.11, PI C-863.11 Controller
+2018-07-22T14:18:37.103780 tid11028 [IFO,App]    C-867, PI C-867 Controller
+2018-07-22T14:18:37.103780 tid11028 [IFO,App]    C-884, PI C-884 Controller
+2018-07-22T14:18:37.103780 tid11028 [IFO,App]    E-517/E-545, PI E-517/E-545 Controller
+2018-07-22T14:18:37.103780 tid11028 [IFO,App]    E-709, PI E-709 Controller
+2018-07-22T14:18:37.103780 tid11028 [IFO,App]    E-710, PI E-710 Controller
+2018-07-22T14:18:37.103780 tid11028 [IFO,App]    E-712, PI E-712 Controller
+2018-07-22T14:18:37.103780 tid11028 [IFO,App]    E-753, PI E-753 Controller
+2018-07-22T14:18:37.103780 tid11028 [IFO,App] PolychromeV
+2018-07-22T14:18:37.106783 tid11028 [IFO,App]    AgilentPolychrome5000, Agilent Polychrome 5000
+2018-07-22T14:18:37.106783 tid11028 [IFO,App] PrecisExcite
+2018-07-22T14:18:37.109786 tid11028 [IFO,App]    PrecisExcite, PrecisExcite LED illuminator
+2018-07-22T14:18:37.109786 tid11028 [IFO,App] Prior
+2018-07-22T14:18:37.112788 tid11028 [IFO,App]    Shutter-1, Pro Scan shutter 1
+2018-07-22T14:18:37.112788 tid11028 [IFO,App]    Shutter-2, Pro Scan shutter 2
+2018-07-22T14:18:37.112788 tid11028 [IFO,App]    Shutter-3, Pro Scan shutter 3
+2018-07-22T14:18:37.112788 tid11028 [IFO,App]    Lumen, Lumen 200Pro lamp shutter
+2018-07-22T14:18:37.112788 tid11028 [IFO,App]    Wheel-1, Pro Scan filter wheel 1
+2018-07-22T14:18:37.112788 tid11028 [IFO,App]    Wheel-2, Pro Scan filter wheel 2
+2018-07-22T14:18:37.112788 tid11028 [IFO,App]    Wheel-3, Pro Scan filter wheel 3
+2018-07-22T14:18:37.112788 tid11028 [IFO,App]    ZStage, Add-on Z-stage
+2018-07-22T14:18:37.112788 tid11028 [IFO,App]    NanoScanZ, NanoScanZ
+2018-07-22T14:18:37.112788 tid11028 [IFO,App]    XYStage, XY Stage
+2018-07-22T14:18:37.112788 tid11028 [IFO,App]    TTL-0, Pro Scan TTL 0
+2018-07-22T14:18:37.112788 tid11028 [IFO,App]    TTL-1, Pro Scan TTL 1
+2018-07-22T14:18:37.112788 tid11028 [IFO,App]    TTL-2, Pro Scan TTL 2
+2018-07-22T14:18:37.112788 tid11028 [IFO,App]    TTL-3, Pro Scan TTL 3
+2018-07-22T14:18:37.112788 tid11028 [IFO,App] PriorLegacy
+2018-07-22T14:18:37.114790 tid11028 [IFO,App]    ZStage, Legacy Z stage
+2018-07-22T14:18:37.114790 tid11028 [IFO,App]    XYStage, Legacy XY Stage
+2018-07-22T14:18:37.114790 tid11028 [IFO,App] PVCAM
+2018-07-22T14:18:37.117793 tid11028 [IFO,App] Error: Unable to load PVCAM library: Failed to load device adapter "PVCAM" [ Failed to load module "C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmgr_dal_PVCAM.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2018-07-22T14:18:37.117793 tid11028 [IFO,App] QCam
+2018-07-22T14:18:37.121797 tid11028 [IFO,App] Error: Unable to load QCam library: Failed to load device adapter "QCam" [ Failed to load module "C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmgr_dal_QCam.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2018-07-22T14:18:37.121797 tid11028 [IFO,App] RAMPS
+2018-07-22T14:18:37.123799 tid11028 [IFO,App]    RAMPSXYStage, RAMPS XY stage
+2018-07-22T14:18:37.123799 tid11028 [IFO,App]    RAMPSZStage, RAMPS Z stage
+2018-07-22T14:18:37.123799 tid11028 [IFO,App]    RAMPSHub, RAMPS hub
+2018-07-22T14:18:37.123799 tid11028 [IFO,App] Rapp
+2018-07-22T14:18:37.132811 tid11028 [IFO,App]    RappScanner, Rapp UGA-40 Scanner
+2018-07-22T14:18:37.132811 tid11028 [IFO,App] RaptorEPIX
+2018-07-22T14:18:37.136815 tid11028 [IFO,App]    Raptor Falcon Camera, Raptor Falcon Camera
+2018-07-22T14:18:37.136815 tid11028 [IFO,App]    Raptor Kite Camera, Raptor Kite Camera
+2018-07-22T14:18:37.136815 tid11028 [IFO,App]    Raptor Osprey Camera, Raptor Osprey Camera
+2018-07-22T14:18:37.136815 tid11028 [IFO,App]    Raptor Osprey RGB Camera, Raptor Osprey RGB Camera
+2018-07-22T14:18:37.136815 tid11028 [IFO,App]    Raptor Owl Camera 320, Raptor Owl Camera 320
+2018-07-22T14:18:37.136815 tid11028 [IFO,App]    Raptor Owl Camera 640, Raptor Owl Camera 640
+2018-07-22T14:18:37.136815 tid11028 [IFO,App]    Raptor Ninox Camera 640, Raptor Ninox Camera 640
+2018-07-22T14:18:37.136815 tid11028 [IFO,App]    Raptor Eagle Camera, Raptor Eagle Camera
+2018-07-22T14:18:37.136815 tid11028 [IFO,App]    Raptor Kingfisher 674, Raptor Kingfisher 674
+2018-07-22T14:18:37.136815 tid11028 [IFO,App]    Raptor Kingfisher 694, Raptor Kingfisher 694
+2018-07-22T14:18:37.136815 tid11028 [IFO,App]    Raptor Kingfisher 674 RGB, Raptor Kingfisher 674 RGB
+2018-07-22T14:18:37.136815 tid11028 [IFO,App]    Raptor Kingfisher 694 RGB, Raptor Kingfisher 694 RGB
+2018-07-22T14:18:37.136815 tid11028 [IFO,App] Sapphire
+2018-07-22T14:18:37.138817 tid11028 [IFO,App]    Sapphire, Sapphire Laser
+2018-07-22T14:18:37.138817 tid11028 [IFO,App] Scientifica
+2018-07-22T14:18:37.141820 tid11028 [IFO,App]    ZStage, Z Stage
+2018-07-22T14:18:37.141820 tid11028 [IFO,App]    XYStage, XY Stage
+2018-07-22T14:18:37.141820 tid11028 [IFO,App] ScopeLED
+2018-07-22T14:18:37.144823 tid11028 [IFO,App]    ScopeLED-G, ScopeLED Fiber Guide Illuminator
+2018-07-22T14:18:37.144823 tid11028 [IFO,App]    ScopeLED-B, ScopeLED Brightfield Microscope Illuminator
+2018-07-22T14:18:37.144823 tid11028 [IFO,App]    ScopeLED-F, ScopeLED Fluorescence Microscope Illuminator
+2018-07-22T14:18:37.144823 tid11028 [IFO,App] SerialManager
+2018-07-22T14:18:37.144823 tid11028 [IFO,App]    COM5, Serial communication port
+2018-07-22T14:18:37.144823 tid11028 [IFO,App]    COM6, Serial communication port
+2018-07-22T14:18:37.144823 tid11028 [IFO,App]    COM10, Serial communication port
+2018-07-22T14:18:37.144823 tid11028 [IFO,App]    COM7, Serial communication port
+2018-07-22T14:18:37.144823 tid11028 [IFO,App]    COM3, Serial communication port
+2018-07-22T14:18:37.144823 tid11028 [IFO,App]    COM4, Serial communication port
+2018-07-22T14:18:37.144823 tid11028 [IFO,App] SigmaKoki
+2018-07-22T14:18:37.147825 tid11028 [IFO,App]    XYStage, BIOS XY-Stage System
+2018-07-22T14:18:37.147825 tid11028 [IFO,App]    Shutter-1, SSH-C4B CH1
+2018-07-22T14:18:37.147825 tid11028 [IFO,App]    Shutter-2, SSH-C4B CH2
+2018-07-22T14:18:37.147825 tid11028 [IFO,App]    Shutter-3, SSH-C4B CH3
+2018-07-22T14:18:37.147825 tid11028 [IFO,App]    Shutter-4, SSH-C4B CH4
+2018-07-22T14:18:37.147825 tid11028 [IFO,App] SimpleAutoFocus
+2018-07-22T14:18:37.150828 tid11028 [IFO,App]    SimpleAutofocus, SimpleAutofocus Finder
+2018-07-22T14:18:37.150828 tid11028 [IFO,App]    FocusMonitor, Focus score monitor - 100XImaging Inc.
+2018-07-22T14:18:37.150828 tid11028 [IFO,App] SpectralLMM5
+2018-07-22T14:18:37.152830 tid11028 [IFO,App]    LMM5-Hub, LMM5 Hub
+2018-07-22T14:18:37.152830 tid11028 [IFO,App]    LMM5-Shutter, LMM5 Shutter
+2018-07-22T14:18:37.152830 tid11028 [IFO,App] Standa
+2018-07-22T14:18:37.155834 tid11028 [IFO,App] Error: Unable to load Standa library: Failed to load device adapter "Standa" [ Failed to load module "C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmgr_dal_Standa.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2018-07-22T14:18:37.155834 tid11028 [IFO,App] Standa8SMC4
+2018-07-22T14:18:37.158836 tid11028 [IFO,App] Error: Unable to load Standa8SMC4 library: Failed to load device adapter "Standa8SMC4" [ Failed to load module "C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmgr_dal_Standa8SMC4.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2018-07-22T14:18:37.158836 tid11028 [IFO,App] StandaStage
+2018-07-22T14:18:37.161839 tid11028 [IFO,App] Error: Unable to load StandaStage library: Failed to load device adapter "StandaStage" [ Failed to load module "C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmgr_dal_StandaStage.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2018-07-22T14:18:37.161839 tid11028 [IFO,App] Stradus
+2018-07-22T14:18:37.164842 tid11028 [IFO,App]    VLTStradus, VLTStradus
+2018-07-22T14:18:37.164842 tid11028 [IFO,App] SutterLambda
+2018-07-22T14:18:37.167845 tid11028 [IFO,App]    Wheel-A, Lambda 10 filter wheel A
+2018-07-22T14:18:37.167845 tid11028 [IFO,App]    Wheel-B, Lambda 10 filter wheel B
+2018-07-22T14:18:37.167845 tid11028 [IFO,App]    Wheel-C, Lambda 10 wheel C (10-3 only)
+2018-07-22T14:18:37.167845 tid11028 [IFO,App]    Shutter-A, Lambda 10 shutter A
+2018-07-22T14:18:37.167845 tid11028 [IFO,App]    Shutter-B, Lambda 10 shutter B
+2018-07-22T14:18:37.167845 tid11028 [IFO,App]    Shutter-A 10-2, Lambda 10-2 shutter A
+2018-07-22T14:18:37.167845 tid11028 [IFO,App]    Shutter-B 10-2, Lambda 10-2 shutter B
+2018-07-22T14:18:37.167845 tid11028 [IFO,App]    Shutter-DG4, DG4 shutter
+2018-07-22T14:18:37.167845 tid11028 [IFO,App]    Wheel-DG4, DG4 filter changer
+2018-07-22T14:18:37.167845 tid11028 [IFO,App] SutterMPC
+2018-07-22T14:18:37.170072 tid11028 [IFO,App]    Sutter MPC, Sutter MPC200/ROE200
+2018-07-22T14:18:37.170072 tid11028 [IFO,App] SutterStage
+2018-07-22T14:18:37.173074 tid11028 [IFO,App]    SutterStageController, SutterStage Controller
+2018-07-22T14:18:37.173074 tid11028 [IFO,App]    XYStage, XY Stage
+2018-07-22T14:18:37.173074 tid11028 [IFO,App] Thorlabs
+2018-07-22T14:18:37.176078 tid11028 [IFO,App]    XYStage, Thorlabs BD102 XY Stage
+2018-07-22T14:18:37.176078 tid11028 [IFO,App]    PiezoZStage, Thorlabs piezo Z Stage
+2018-07-22T14:18:37.176078 tid11028 [IFO,App]    MotorZStage, Thorlabs Motor Z Stage
+2018-07-22T14:18:37.176078 tid11028 [IFO,App]    FilterWheel, Integrated filter wheel
+2018-07-22T14:18:37.176078 tid11028 [IFO,App] ThorlabsDCxxxx
+2018-07-22T14:18:37.178529 tid11028 [IFO,App]    Thorlabs DC2010/DC2100, DC2010/DC2100 High Power LED Driver
+2018-07-22T14:18:37.178529 tid11028 [IFO,App]    Thorlabs DC3100, DC3100 FLIM LED Driver
+2018-07-22T14:18:37.178529 tid11028 [IFO,App]    Thorlabs DC4100, DC4100 Four channel LED Driver
+2018-07-22T14:18:37.178529 tid11028 [IFO,App] ThorlabsFilterWheel
+2018-07-22T14:18:37.181531 tid11028 [IFO,App]    Thorlabs Filter Wheel, Thorlabs filter wheel
+2018-07-22T14:18:37.181531 tid11028 [IFO,App] ThorlabsSC10
+2018-07-22T14:18:37.184534 tid11028 [IFO,App]    SC10, ThorLabs SC10 shutter controller
+2018-07-22T14:18:37.184534 tid11028 [IFO,App] ThorlabsUSBCamera
+2018-07-22T14:18:37.187537 tid11028 [IFO,App] Error: Unable to load ThorlabsUSBCamera library: Failed to load device adapter "ThorlabsUSBCamera" [ Failed to load module "C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmgr_dal_ThorlabsUSBCamera.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2018-07-22T14:18:37.187537 tid11028 [IFO,App] TIScam
+2018-07-22T14:18:37.206546 tid11028 [IFO,App]    TIS_DCAM, The Imaging Source
+2018-07-22T14:18:37.206546 tid11028 [IFO,App] Tofra
+2018-07-22T14:18:37.209549 tid11028 [IFO,App]    TOFRA Filter Wheel, TOFRA Filter Wheel with Integrated Controller
+2018-07-22T14:18:37.209549 tid11028 [IFO,App]    TOFRA Z-Drive, TOFRA Z-Drive with Integrated Controller
+2018-07-22T14:18:37.209549 tid11028 [IFO,App]    TOFRA XYStage, TOFRA XYStage with Integrated Controller
+2018-07-22T14:18:37.209549 tid11028 [IFO,App]    TOFRA Cube Slider, TOFRA Filter Cube Slider with Integrated Controller
+2018-07-22T14:18:37.209549 tid11028 [IFO,App]    TOFRA RGB LED, TOFRA RGB LED Light Source
+2018-07-22T14:18:37.209549 tid11028 [IFO,App]    TOFRA RGB LED Shutter, TOFRA RGB LED as Shutter
+2018-07-22T14:18:37.209549 tid11028 [IFO,App] Toptica_iChrome_MLE
+2018-07-22T14:18:37.212552 tid11028 [IFO,App]    iChrome-MLE, iChrome-MLE
+2018-07-22T14:18:37.212552 tid11028 [IFO,App] Toptica_iChrome_MLE_TCP
+2018-07-22T14:18:37.215555 tid11028 [IFO,App]    iChrome-MLE-TCP, iChrome-MLE
+2018-07-22T14:18:37.215555 tid11028 [IFO,App] TriggerScope
+2018-07-22T14:18:37.217557 tid11028 [IFO,App]    TriggerScope, TriggerScope
+2018-07-22T14:18:37.217557 tid11028 [IFO,App] TSI
+2018-07-22T14:18:37.220560 tid11028 [IFO,App]    TSICam, Thorlabs Scientific Imaging camera
+2018-07-22T14:18:37.220560 tid11028 [IFO,App] TwainCamera
+2018-07-22T14:18:37.223563 tid11028 [IFO,App]    TwainCam, Twain camera
+2018-07-22T14:18:37.223563 tid11028 [IFO,App] Usb3CamHS
+2018-07-22T14:18:37.226566 tid11028 [IFO,App] Error: Unable to load Usb3CamHS library: Failed to load device adapter "Usb3CamHS" [ Failed to load module "C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmgr_dal_Usb3CamHS.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2018-07-22T14:18:37.226566 tid11028 [IFO,App] USBManager
+2018-07-22T14:18:37.229569 tid11028 [IFO,App] UserDefinedSerial
+2018-07-22T14:18:37.232315 tid11028 [IFO,App]    UserDefinedGenericDevice, Generic device using user-defined serial commands
+2018-07-22T14:18:37.232315 tid11028 [IFO,App]    UserDefinedShutter, Generic shutter using user-defined serial commands
+2018-07-22T14:18:37.233315 tid11028 [IFO,App]    UserDefinedStateDevice, Generic switcher using user-defined serial commands
+2018-07-22T14:18:37.233315 tid11028 [IFO,App] Utilities
+2018-07-22T14:18:37.235317 tid11028 [IFO,App]    Multi Shutter, Combine multiple physical shutters into a single logical shutter
+2018-07-22T14:18:37.235317 tid11028 [IFO,App]    Multi Camera, Combine multiple physical cameras into a single logical camera
+2018-07-22T14:18:37.235317 tid11028 [IFO,App]    DA Shutter, DA used as a shutter
+2018-07-22T14:18:37.235317 tid11028 [IFO,App]    DA Monochromator, DA used to control a monochromator
+2018-07-22T14:18:37.235317 tid11028 [IFO,App]    DA Z Stage, DA-controlled Z-stage
+2018-07-22T14:18:37.235317 tid11028 [IFO,App]    DA XY Stage, DA-controlled XY-stage
+2018-07-22T14:18:37.235317 tid11028 [IFO,App]    AutoFocus Stage, AutoFocus offset acting as a Z-stage
+2018-07-22T14:18:37.235317 tid11028 [IFO,App]    State Device Shutter, State device used as a shutter
+2018-07-22T14:18:37.235317 tid11028 [IFO,App] VariLC
+2018-07-22T14:18:37.238320 tid11028 [IFO,App]    VariLC, VariLC
+2018-07-22T14:18:37.238320 tid11028 [IFO,App] VersaLase
+2018-07-22T14:18:37.241323 tid11028 [IFO,App]    VLT_VersaLase, VLT_VersaLase
+2018-07-22T14:18:37.241323 tid11028 [IFO,App] Vincent
+2018-07-22T14:18:37.244326 tid11028 [IFO,App]    Vincent-D1, Vincent controller VMM-D1/T1 and D122
+2018-07-22T14:18:37.244326 tid11028 [IFO,App]    Vincent-D3, Vincent controller VMM-D3/D4
+2018-07-22T14:18:37.244326 tid11028 [IFO,App] Xcite
+2018-07-22T14:18:37.246328 tid11028 [IFO,App]    X-Cite120PC, EXFO X-Cite 120 PC
+2018-07-22T14:18:37.246328 tid11028 [IFO,App] XCite120PC_Exacte
+2018-07-22T14:18:37.249331 tid11028 [IFO,App]    XCite-120PC, X-Cite 120PC
+2018-07-22T14:18:37.249331 tid11028 [IFO,App]    XCite-Exacte, X-Cite Exacte
+2018-07-22T14:18:37.249331 tid11028 [IFO,App] XCiteLed
+2018-07-22T14:18:37.252334 tid11028 [IFO,App]    XLED1 Controller, XLED1 Controller
+2018-07-22T14:18:37.252334 tid11028 [IFO,App]    LED1 Device, LED1 Device
+2018-07-22T14:18:37.252334 tid11028 [IFO,App]    LED2 Device, LED2 Device
+2018-07-22T14:18:37.252334 tid11028 [IFO,App]    LED3 Device, LED3 Device
+2018-07-22T14:18:37.252334 tid11028 [IFO,App]    LED4 Device, LED4 Device
+2018-07-22T14:18:37.252334 tid11028 [IFO,App] XIMEACamera
+2018-07-22T14:18:37.255337 tid11028 [IFO,App] Error: Unable to load XIMEACamera library: Failed to load device adapter "XIMEACamera" [ Failed to load module "C:\Users\muxika\Documents\MATLAB\MMmicroscopeScript16-11-2017\fcMicroscope\binaries\Micro-Manager-1.4\mmgr_dal_XIMEACamera.dll" [ The module, or a module it depends upon, could not be found (Windows error: The specified module could not be found.) ] ]
+2018-07-22T14:18:37.255337 tid11028 [IFO,App] XLight
+2018-07-22T14:18:37.258340 tid11028 [IFO,App]    XLIGHT Hub, Hub (Needed for XLIGHT)
+2018-07-22T14:18:37.258340 tid11028 [IFO,App]    XLIGHT Dichroic, Confocal dichroic wheel
+2018-07-22T14:18:37.258340 tid11028 [IFO,App]    XLIGHT Disk slider, Spinning disk slider
+2018-07-22T14:18:37.258340 tid11028 [IFO,App]    XLIGHT Spin motor, Spinning disk motor
+2018-07-22T14:18:37.258340 tid11028 [IFO,App]    XLIGHT Emission Wheel, Confocal Emission wheel
+2018-07-22T14:18:37.258340 tid11028 [IFO,App]    XLIGHT Touchscreen, Touchscreen lockout control
+2018-07-22T14:18:37.258340 tid11028 [IFO,App] Yokogawa
+2018-07-22T14:18:37.261342 tid11028 [IFO,App]    Hub, CSU22 Hub (Needed for CSU22)
+2018-07-22T14:18:37.261342 tid11028 [IFO,App]    ND Filter, Neutral Density Filter
+2018-07-22T14:18:37.261342 tid11028 [IFO,App]    Filter Set, Filter Set (Dichroics)
+2018-07-22T14:18:37.261342 tid11028 [IFO,App]    Shutter, Shutter
+2018-07-22T14:18:37.261342 tid11028 [IFO,App]    DriveSpeed, DriveSpeed
+2018-07-22T14:18:37.261342 tid11028 [IFO,App] Zaber
+2018-07-22T14:18:37.264345 tid11028 [IFO,App]    XYStage, Zaber XY Stage
+2018-07-22T14:18:37.264345 tid11028 [IFO,App]    Stage, Zaber Stage
+2018-07-22T14:18:37.264345 tid11028 [IFO,App] ZeissCAN
+2018-07-22T14:18:37.267348 tid11028 [IFO,App]    ZeissScope, Zeiss Axiovert 200m controlled through serial interface
+2018-07-22T14:18:37.267348 tid11028 [IFO,App]    ZeissShutter, Shutter
+2018-07-22T14:18:37.267348 tid11028 [IFO,App]    ZeissShutterMFFirmware, ShutterMFFirmware
+2018-07-22T14:18:37.267348 tid11028 [IFO,App]    ZeissReflectorTurret, Reflector Turret (dichroics)
+2018-07-22T14:18:37.267348 tid11028 [IFO,App]    ZeissSidePortTurret, SidePort switcher
+2018-07-22T14:18:37.267348 tid11028 [IFO,App]    ZeissBasePortSlider, BasePort Slider
+2018-07-22T14:18:37.267348 tid11028 [IFO,App]    ZeissObjectives, Objective Turret
+2018-07-22T14:18:37.267348 tid11028 [IFO,App]    ZeissCondenser, Condenser Turret
+2018-07-22T14:18:37.267348 tid11028 [IFO,App]    ZeissOptovar, Optovar
+2018-07-22T14:18:37.267348 tid11028 [IFO,App]    ZeissTubelens, Tubelens
+2018-07-22T14:18:37.267348 tid11028 [IFO,App]    ZeissExcitationLampSwitcher, Lamp Switcher
+2018-07-22T14:18:37.267348 tid11028 [IFO,App]    ZeissHalogenLamp, Halogen Lamp
+2018-07-22T14:18:37.267348 tid11028 [IFO,App]    Focus, Z-Drive
+2018-07-22T14:18:37.267348 tid11028 [IFO,App]    ZeissExternalFilterWheel, External FilterWheel
+2018-07-22T14:18:37.267348 tid11028 [IFO,App]    ZeissFilterWheel1, FilterWheel 1
+2018-07-22T14:18:37.267348 tid11028 [IFO,App]    ZeissFilterWheel2, FilterWheel 2
+2018-07-22T14:18:37.267348 tid11028 [IFO,App]    XYStage, XY Stage (MCU 28)
+2018-07-22T14:18:37.267348 tid11028 [IFO,App]    ZStage, Z Stage on Axioskop 2
+2018-07-22T14:18:37.267348 tid11028 [IFO,App]    PhotoModule, AxioPhot 2 Photo Module
+2018-07-22T14:18:37.267348 tid11028 [IFO,App] ZeissCAN29
+2018-07-22T14:18:37.270351 tid11028 [IFO,App]    ZeissScope, Zeiss AxioObserver controlled through serial interface
+2018-07-22T14:18:37.270351 tid11028 [IFO,App]    ZeissReflectorTurret, Reflector Turret (dichroics)
+2018-07-22T14:18:37.270351 tid11028 [IFO,App]    ZeissObjectiveTurret, Objective Turret
+2018-07-22T14:18:37.270351 tid11028 [IFO,App]    ZeissNDWheel1RL, ND Filter Wheel 1 Fluorescence Light Path
+2018-07-22T14:18:37.270351 tid11028 [IFO,App]    ZeissNDWheel2RL, ND Filter Wheel 2 Fluorescence Light Path
+2018-07-22T14:18:37.270351 tid11028 [IFO,App]    ZeissFieldDiaphragm, Field Diaphragm (fluorescence)
+2018-07-22T14:18:37.270351 tid11028 [IFO,App]    ZeissApertureDiaphragm, Aperture Diaphragm (fluorescence)
+2018-07-22T14:18:37.270351 tid11028 [IFO,App]    ZeissNDWheel1TL, ND Filter Wheel 1 Transmitted Light Path
+2018-07-22T14:18:37.270351 tid11028 [IFO,App]    ZeissNDWheel2TL, ND Filter Wheel 2 Transmitted Light Path
+2018-07-22T14:18:37.270351 tid11028 [IFO,App]    ZeissFocusAxis, Z-drive
+2018-07-22T14:18:37.270351 tid11028 [IFO,App]    ZeissXYStage, XYStage
+2018-07-22T14:18:37.270351 tid11028 [IFO,App]    ZeissTubeLens, Tube Lens (optovar)
+2018-07-22T14:18:37.270351 tid11028 [IFO,App]    ZeissTubeLensShutter, Tube Lens Shutter
+2018-07-22T14:18:37.270351 tid11028 [IFO,App]    ZeissSidePort, Side Port
+2018-07-22T14:18:37.270351 tid11028 [IFO,App]    ZeissExcitationSwitcher, Excitation Switcher
+2018-07-22T14:18:37.270351 tid11028 [IFO,App]    ZeissReflectedLightShutter, Reflected Light Shutter
+2018-07-22T14:18:37.270351 tid11028 [IFO,App]    ZeissTransmittedLightShutter, Transmitted Light Shutter
+2018-07-22T14:18:37.270351 tid11028 [IFO,App]    ZeissRL-FLAttenuator, Reflected (fluorescence) light attenuator
+2018-07-22T14:18:37.270351 tid11028 [IFO,App]    ZeissCondenserContrast, Condenser Contrast
+2018-07-22T14:18:37.270351 tid11028 [IFO,App]    ZeissCondenserAperture, Condenser Aperture
+2018-07-22T14:18:37.270351 tid11028 [IFO,App]    ZeissHBOLamp, HBO Lamp
+2018-07-22T14:18:37.270351 tid11028 [IFO,App]    ZeissHalogenLamp, Halogen Lamp
+2018-07-22T14:18:37.270351 tid11028 [IFO,App]    ZeissLSMPort, LSM Port (rearPort)
+2018-07-22T14:18:37.270351 tid11028 [IFO,App]    ZeissBasePort, Base Port switcher
+2018-07-22T14:18:37.270351 tid11028 [IFO,App]    ZeissExternalLampMirror, External Lamp Mirror
+2018-07-22T14:18:37.270351 tid11028 [IFO,App]    ZeissUniblitz, Uniblitz Shutter
+2018-07-22T14:18:37.270351 tid11028 [IFO,App]    ZeissFilterWheel, Filter Wheel
+2018-07-22T14:18:37.270351 tid11028 [IFO,App]    ZeissDefiniteFocus, Definite Focus
+2018-07-22T14:18:37.270351 tid11028 [IFO,App]    ZeissDefiniteFocusOffset, Definite Focus Offset-drive
+2018-07-22T14:18:37.270351 tid11028 [IFO,App]    ZeissColibri, Colibri
+2018-07-22T14:18:37.270351 tid11028 [IFO,App]    Zeiss2TVTubePrism, g_Zeiss2TVTubePrism
+2018-07-22T14:18:37.270351 tid11028 [IFO,App]    Zeiss2TVTubeSlider, g_Zeiss2TVTubeSlider
+2018-07-22T14:18:37.270351 tid11028 [IFO,App]    Zeiss2TVTubeShutter, g_Zeiss2TVTubeShutter
+2018-07-22T14:18:37.270351 tid11028 [IFO,App]    ZeissHXPShutter, g_ZeissHXPShutter
+2018-07-22T14:18:39.587423 tid11028 [IFO,Core] Did load device COM5 from SerialManager; label = COM5
+2018-07-22T14:18:39.587423 tid11028 [IFO,Core] Did load device COM6 from SerialManager; label = COM6
+2018-07-22T14:18:39.587423 tid11028 [IFO,Core] Did load device COM10 from SerialManager; label = COM10
+2018-07-22T14:18:39.587423 tid11028 [IFO,Core] Did load device COM7 from SerialManager; label = COM7
+2018-07-22T14:18:39.587423 tid11028 [IFO,Core] Did load device COM3 from SerialManager; label = COM3
+2018-07-22T14:18:39.587423 tid11028 [IFO,Core] Did load device COM4 from SerialManager; label = COM4
+2018-07-22T14:18:39.587423 tid11028 [IFO,Core] Did load device pE4000 from CoolLED-pE4000; label = pE4000
+2018-07-22T14:18:39.587423 tid11028 [IFO,Core] Did load device HamamatsuHam_DCAM from HamamatsuHam; label = C13440
+2018-07-22T14:18:39.587423 tid11028 [IFO,Core] Did load device FreeSerialPort from FreeSerialPort; label = ScopeLED-B
+2018-07-22T14:18:39.587423 tid11028 [IFO,Core] Did load device FreeSerialPort from FreeSerialPort; label = Arduino
+2018-07-22T14:18:39.590425 tid11028 [IFO,Core] Will initialize device COM5
+2018-07-22T14:18:39.677431 tid11028 [IFO,Core] Did initialize device COM5
+2018-07-22T14:18:39.678433 tid11028 [IFO,Core] Will initialize device COM4
+2018-07-22T14:18:39.992735 tid11028 [IFO,Core] Did initialize device COM4
+2018-07-22T14:18:39.993736 tid11028 [IFO,Core] Will initialize device COM10
+2018-07-22T14:18:40.183918 tid11028 [IFO,Core] Did initialize device COM10
+2018-07-22T14:18:40.183918 tid11028 [IFO,Core] Will initialize device pE4000
+2018-07-22T14:18:40.221955 tid11028 [IFO,Core] Did initialize device pE4000
+2018-07-22T14:18:40.221955 tid11028 [IFO,Core] Will initialize device C13440
+2018-07-22T14:18:41.109807 tid11028 [IFO,Core] Did initialize device C13440
+2018-07-22T14:18:41.110808 tid11028 [IFO,Core] Will initialize device ScopeLED-B
+2018-07-22T14:18:41.110808 tid11028 [IFO,Core] Did initialize device ScopeLED-B
+2018-07-22T14:18:41.110808 tid11028 [IFO,Core] Will initialize device Arduino
+2018-07-22T14:18:41.110808 tid11028 [IFO,Core] Did initialize device Arduino
+2018-07-22T14:18:55.938046 tid11028 [IFO,Core] Did load device Andor from Andor; label = Andor
+2018-07-22T14:18:55.944052 tid11028 [IFO,App] COM5, property AnswerTimeout=500.0000
+2018-07-22T14:18:55.944052 tid11028 [IFO,App] COM5, property BaudRate=115200
+2018-07-22T14:18:55.944052 tid11028 [IFO,App] COM5, property DelayBetweenCharsMs=0.0000
+2018-07-22T14:18:55.944052 tid11028 [IFO,App] COM5, property Handshaking=Off
+2018-07-22T14:18:55.944052 tid11028 [IFO,App] COM5, property Parity=None
+2018-07-22T14:18:55.944052 tid11028 [IFO,App] COM5, property StopBits=1
+2018-07-22T14:18:55.944052 tid11028 [IFO,App] COM5, property Verbose=1
+2018-07-22T14:18:55.944052 tid11028 [IFO,App] COM10, property AnswerTimeout=500.0000
+2018-07-22T14:18:55.944052 tid11028 [IFO,App] COM10, property BaudRate=115200
+2018-07-22T14:18:55.944052 tid11028 [IFO,App] COM10, property DelayBetweenCharsMs=0.0000
+2018-07-22T14:18:55.944052 tid11028 [IFO,App] COM10, property Handshaking=Off
+2018-07-22T14:18:55.944052 tid11028 [IFO,App] COM10, property Parity=None
+2018-07-22T14:18:55.944052 tid11028 [IFO,App] COM10, property StopBits=1
+2018-07-22T14:18:55.944052 tid11028 [IFO,App] COM10, property Verbose=1
+2018-07-22T14:18:55.944052 tid11028 [IFO,App] COM4, property AnswerTimeout=500.0000
+2018-07-22T14:18:55.944052 tid11028 [IFO,App] COM4, property BaudRate=115200
+2018-07-22T14:18:55.944052 tid11028 [IFO,App] COM4, property DelayBetweenCharsMs=0.0000
+2018-07-22T14:18:55.944052 tid11028 [IFO,App] COM4, property Handshaking=Off
+2018-07-22T14:18:55.944052 tid11028 [IFO,App] COM4, property Parity=None
+2018-07-22T14:18:55.944052 tid11028 [IFO,App] COM4, property StopBits=1
+2018-07-22T14:18:55.944052 tid11028 [IFO,App] COM4, property Verbose=1
+2018-07-22T14:19:09.007597 tid14628 [IFO,App] Starting port scanning; expect lots of spurious error messages
+2018-07-22T14:19:09.007597 tid14628 [ERR,Core:dev:Andor] Cannot set property "Port" to "COM5" [ Error in device "Andor": Invalid property name encountered: Port (2) ]
+2018-07-22T14:19:09.007597 tid14628 [IFO,App] 
+                                    [       ] java.lang.Exception: Cannot set property "Port" to "COM5" [ Error in device "Andor": Invalid property name encountered: Port (2) ] in Thread[serial_detect,6,main]
+                                    [       ]   at mmcorej.MMCoreJJNI.CMMCore_setProperty__SWIG_0(Native Method)
+                                    [       ]   at mmcorej.CMMCore.setProperty(CMMCore.java:450)
+                                    [       ]   at org.micromanager.conf2.DeviceSetupDlg$DetectionTask.run(DeviceSetupDlg.java:514)
+2018-07-22T14:19:09.008598 tid14628 [ERR,Core:dev:Andor] Cannot get value of property "Port" [ Error in device "Andor": Invalid property name encountered: Port (2) ]
+2018-07-22T14:19:14.385762 tid14628 [IFO,App] Finished port scanning; spurious error messages no longer expected
+2018-07-22T14:19:14.385762 tid14628 [IFO,App] COM5, property AnswerTimeout=500.0000
+2018-07-22T14:19:14.385762 tid14628 [IFO,App] COM5, property BaudRate=115200
+2018-07-22T14:19:14.385762 tid14628 [IFO,App] COM5, property DelayBetweenCharsMs=0.0000
+2018-07-22T14:19:14.385762 tid14628 [IFO,App] COM5, property Handshaking=Off
+2018-07-22T14:19:14.385762 tid14628 [IFO,App] COM5, property Parity=None
+2018-07-22T14:19:14.385762 tid14628 [IFO,App] COM5, property StopBits=1
+2018-07-22T14:19:14.385762 tid14628 [IFO,App] COM5, property Verbose=1
+2018-07-22T14:19:14.385762 tid14628 [IFO,App] COM10, property AnswerTimeout=500.0000
+2018-07-22T14:19:14.385762 tid14628 [IFO,App] COM10, property BaudRate=115200
+2018-07-22T14:19:14.385762 tid14628 [IFO,App] COM10, property DelayBetweenCharsMs=0.0000
+2018-07-22T14:19:14.385762 tid14628 [IFO,App] COM10, property Handshaking=Off
+2018-07-22T14:19:14.385762 tid14628 [IFO,App] COM10, property Parity=None
+2018-07-22T14:19:14.385762 tid14628 [IFO,App] COM10, property StopBits=1
+2018-07-22T14:19:14.385762 tid14628 [IFO,App] COM10, property Verbose=1
+2018-07-22T14:19:14.385762 tid14628 [IFO,App] COM4, property AnswerTimeout=500.0000
+2018-07-22T14:19:14.385762 tid14628 [IFO,App] COM4, property BaudRate=115200
+2018-07-22T14:19:14.385762 tid14628 [IFO,App] COM4, property DelayBetweenCharsMs=0.0000
+2018-07-22T14:19:14.385762 tid14628 [IFO,App] COM4, property Handshaking=Off
+2018-07-22T14:19:14.385762 tid14628 [IFO,App] COM4, property Parity=None
+2018-07-22T14:19:14.385762 tid14628 [IFO,App] COM4, property StopBits=1
+2018-07-22T14:19:14.385762 tid14628 [IFO,App] COM4, property Verbose=1
+2018-07-22T14:19:30.979696 tid11028 [IFO,App] COM5, property AnswerTimeout=500.0000
+2018-07-22T14:19:30.979696 tid11028 [IFO,App] COM5, property BaudRate=115200
+2018-07-22T14:19:30.979696 tid11028 [IFO,App] COM5, property DelayBetweenCharsMs=0.0000
+2018-07-22T14:19:30.979696 tid11028 [IFO,App] COM5, property Handshaking=Off
+2018-07-22T14:19:30.979696 tid11028 [IFO,App] COM5, property Parity=None
+2018-07-22T14:19:30.979696 tid11028 [IFO,App] COM5, property StopBits=1
+2018-07-22T14:19:30.979696 tid11028 [IFO,App] COM5, property Verbose=1
+2018-07-22T14:19:30.979696 tid11028 [IFO,App] COM10, property AnswerTimeout=500.0000
+2018-07-22T14:19:30.979696 tid11028 [IFO,App] COM10, property BaudRate=115200
+2018-07-22T14:19:30.979696 tid11028 [IFO,App] COM10, property DelayBetweenCharsMs=0.0000
+2018-07-22T14:19:30.979696 tid11028 [IFO,App] COM10, property Handshaking=Off
+2018-07-22T14:19:30.979696 tid11028 [IFO,App] COM10, property Parity=None
+2018-07-22T14:19:30.979696 tid11028 [IFO,App] COM10, property StopBits=1
+2018-07-22T14:19:30.979696 tid11028 [IFO,App] COM10, property Verbose=1
+2018-07-22T14:19:30.979696 tid11028 [IFO,App] COM4, property AnswerTimeout=500.0000
+2018-07-22T14:19:30.979696 tid11028 [IFO,App] COM4, property BaudRate=115200
+2018-07-22T14:19:30.979696 tid11028 [IFO,App] COM4, property DelayBetweenCharsMs=0.0000
+2018-07-22T14:19:30.979696 tid11028 [IFO,App] COM4, property Handshaking=Off
+2018-07-22T14:19:30.979696 tid11028 [IFO,App] COM4, property Parity=None
+2018-07-22T14:19:30.979696 tid11028 [IFO,App] COM4, property StopBits=1
+2018-07-22T14:19:30.979696 tid11028 [IFO,App] COM4, property Verbose=1
+2018-07-22T14:19:32.847490 tid11028 [IFO,Core] Did load device HamamatsuHam_DCAM from HamamatsuHam; label = C13440
+2018-07-22T14:19:32.848491 tid11028 [IFO,Core] Did load device HamamatsuHam_DCAM from HamamatsuHam; label = C13440
+2018-07-22T14:19:32.848491 tid11028 [IFO,Core] Will initialize device C13440
+2018-07-22T14:19:33.735342 tid11028 [IFO,Core] Did initialize device C13440
+2018-07-22T14:19:35.862385 tid11028 [IFO,App] COM5, property AnswerTimeout=500.0000
+2018-07-22T14:19:35.862385 tid11028 [IFO,App] COM5, property BaudRate=115200
+2018-07-22T14:19:35.862385 tid11028 [IFO,App] COM5, property DelayBetweenCharsMs=0.0000
+2018-07-22T14:19:35.862385 tid11028 [IFO,App] COM5, property Handshaking=Off
+2018-07-22T14:19:35.862385 tid11028 [IFO,App] COM5, property Parity=None
+2018-07-22T14:19:35.862385 tid11028 [IFO,App] COM5, property StopBits=1
+2018-07-22T14:19:35.862385 tid11028 [IFO,App] COM5, property Verbose=1
+2018-07-22T14:19:35.862385 tid11028 [IFO,App] COM10, property AnswerTimeout=500.0000
+2018-07-22T14:19:35.862385 tid11028 [IFO,App] COM10, property BaudRate=115200
+2018-07-22T14:19:35.862385 tid11028 [IFO,App] COM10, property DelayBetweenCharsMs=0.0000
+2018-07-22T14:19:35.862385 tid11028 [IFO,App] COM10, property Handshaking=Off
+2018-07-22T14:19:35.862385 tid11028 [IFO,App] COM10, property Parity=None
+2018-07-22T14:19:35.862385 tid11028 [IFO,App] COM10, property StopBits=1
+2018-07-22T14:19:35.862385 tid11028 [IFO,App] COM10, property Verbose=1
+2018-07-22T14:19:35.862385 tid11028 [IFO,App] COM4, property AnswerTimeout=500.0000
+2018-07-22T14:19:35.862385 tid11028 [IFO,App] COM4, property BaudRate=115200
+2018-07-22T14:19:35.862385 tid11028 [IFO,App] COM4, property DelayBetweenCharsMs=0.0000
+2018-07-22T14:19:35.862385 tid11028 [IFO,App] COM4, property Handshaking=Off
+2018-07-22T14:19:35.862385 tid11028 [IFO,App] COM4, property Parity=None
+2018-07-22T14:19:35.862385 tid11028 [IFO,App] COM4, property StopBits=1
+2018-07-22T14:19:35.862385 tid11028 [IFO,App] COM4, property Verbose=1
+2018-07-22T14:19:37.963402 tid11028 [IFO,Core] Did load device HamamatsuHam_DCAM from HamamatsuHam; label = C13440
+2018-07-22T14:19:37.963402 tid11028 [IFO,Core] Did load device HamamatsuHam_DCAM from HamamatsuHam; label = C13440
+2018-07-22T14:19:37.964404 tid11028 [IFO,Core] Will initialize device C13440
+2018-07-22T14:19:38.850254 tid11028 [IFO,Core] Did initialize device C13440
+2018-07-22T14:19:48.510530 tid11028 [IFO,Core] Did load device Andor from Andor; label = Andor
+2018-07-22T14:19:48.513533 tid11028 [IFO,App] COM5, property AnswerTimeout=500.0000
+2018-07-22T14:19:48.513533 tid11028 [IFO,App] COM5, property BaudRate=115200
+2018-07-22T14:19:48.513533 tid11028 [IFO,App] COM5, property DelayBetweenCharsMs=0.0000
+2018-07-22T14:19:48.513533 tid11028 [IFO,App] COM5, property Handshaking=Off
+2018-07-22T14:19:48.513533 tid11028 [IFO,App] COM5, property Parity=None
+2018-07-22T14:19:48.513533 tid11028 [IFO,App] COM5, property StopBits=1
+2018-07-22T14:19:48.513533 tid11028 [IFO,App] COM5, property Verbose=1
+2018-07-22T14:19:48.513533 tid11028 [IFO,App] COM10, property AnswerTimeout=500.0000
+2018-07-22T14:19:48.513533 tid11028 [IFO,App] COM10, property BaudRate=115200
+2018-07-22T14:19:48.513533 tid11028 [IFO,App] COM10, property DelayBetweenCharsMs=0.0000
+2018-07-22T14:19:48.513533 tid11028 [IFO,App] COM10, property Handshaking=Off
+2018-07-22T14:19:48.513533 tid11028 [IFO,App] COM10, property Parity=None
+2018-07-22T14:19:48.513533 tid11028 [IFO,App] COM10, property StopBits=1
+2018-07-22T14:19:48.513533 tid11028 [IFO,App] COM10, property Verbose=1
+2018-07-22T14:19:48.513533 tid11028 [IFO,App] COM4, property AnswerTimeout=500.0000
+2018-07-22T14:19:48.513533 tid11028 [IFO,App] COM4, property BaudRate=115200
+2018-07-22T14:19:48.513533 tid11028 [IFO,App] COM4, property DelayBetweenCharsMs=0.0000
+2018-07-22T14:19:48.513533 tid11028 [IFO,App] COM4, property Handshaking=Off
+2018-07-22T14:19:48.513533 tid11028 [IFO,App] COM4, property Parity=None
+2018-07-22T14:19:48.513533 tid11028 [IFO,App] COM4, property StopBits=1
+2018-07-22T14:19:48.513533 tid11028 [IFO,App] COM4, property Verbose=1
+2018-07-22T14:19:50.205158 tid11028 [IFO,Core] Will initialize device Andor
+2018-07-22T14:19:50.206159 tid11028 [IFO,dev:Andor] Camera version info: 
+                                    [             ] EPROM: 0
+                                    [             ] COF File: 0
+                                    [             ] Driver: 0.0
+                                    [             ] DLL: 2.102
+2018-07-22T14:19:50.880806 tid11028 [IFO,dev:Andor] PrepareSnap();
+2018-07-22T14:19:51.359266 tid11028 [IFO,Core] Did initialize device Andor
+2018-07-22T14:20:42.676456 tid11028 [IFO,Core] Did unload all devices
+2018-07-22T14:20:46.112644 tid11028 [IFO,Core] Did unload all devices
+2018-07-22T14:20:46.112644 tid11028 [IFO,Core] Did load device COM5 from SerialManager; label = COM5
+2018-07-22T14:20:46.112644 tid11028 [IFO,Core] Did load device COM10 from SerialManager; label = COM10
+2018-07-22T14:20:46.112644 tid11028 [IFO,Core] Did load device COM4 from SerialManager; label = COM4
+2018-07-22T14:20:46.112644 tid11028 [IFO,Core] Did load device pE4000 from CoolLED-pE4000; label = pE4000
+2018-07-22T14:20:46.112644 tid11028 [IFO,Core] Did load device HamamatsuHam_DCAM from HamamatsuHam; label = C13440
+2018-07-22T14:20:46.112644 tid11028 [IFO,Core] Did load device FreeSerialPort from FreeSerialPort; label = ScopeLED-B
+2018-07-22T14:20:46.112644 tid11028 [IFO,Core] Did load device FreeSerialPort from FreeSerialPort; label = Arduino
+2018-07-22T14:20:48.119865 tid11028 [IFO,Core] Did load device Andor from Andor; label = Andor
+2018-07-22T14:20:48.119865 tid11028 [IFO,Core] Will initialize 8 devices
+2018-07-22T14:20:48.119865 tid11028 [IFO,Core] Will initialize device COM5
+2018-07-22T14:20:48.213449 tid11028 [IFO,Core] Did initialize device COM5
+2018-07-22T14:20:48.213449 tid11028 [IFO,Core] Will initialize device COM10
+2018-07-22T14:20:48.406634 tid11028 [IFO,Core] Did initialize device COM10
+2018-07-22T14:20:48.406634 tid11028 [IFO,Core] Will initialize device COM4
+2018-07-22T14:20:48.720936 tid11028 [IFO,Core] Did initialize device COM4
+2018-07-22T14:20:48.720936 tid11028 [IFO,Core] Will initialize device pE4000
+2018-07-22T14:20:48.766980 tid11028 [IFO,Core] Did initialize device pE4000
+2018-07-22T14:20:48.766980 tid11028 [IFO,Core] Default shutter set to pE4000
+2018-07-22T14:20:48.766980 tid11028 [IFO,Core] Will initialize device C13440
+2018-07-22T14:20:49.640957 tid11028 [IFO,Core] Did initialize device C13440
+2018-07-22T14:20:49.640957 tid11028 [IFO,Core] Default camera set to C13440
+2018-07-22T14:20:49.640957 tid11028 [IFO,Core] Will initialize device ScopeLED-B
+2018-07-22T14:20:49.640957 tid11028 [IFO,Core] Did initialize device ScopeLED-B
+2018-07-22T14:20:49.640957 tid11028 [IFO,Core] Will initialize device Arduino
+2018-07-22T14:20:49.640957 tid11028 [IFO,Core] Did initialize device Arduino
+2018-07-22T14:20:49.640957 tid11028 [IFO,Core] Will initialize device Andor
+2018-07-22T14:20:49.642458 tid11028 [IFO,dev:Andor] Camera version info: 
+                                    [             ] EPROM: 0
+                                    [             ] COF File: 0
+                                    [             ] Driver: 0.0
+                                    [             ] DLL: 2.102
+2018-07-22T14:20:50.309599 tid11028 [IFO,dev:Andor] PrepareSnap();
+2018-07-22T14:20:50.785556 tid11028 [IFO,Core] Did initialize device Andor
+2018-07-22T14:20:50.785556 tid11028 [IFO,Core] Default camera set to Andor
+2018-07-22T14:20:50.785556 tid11028 [IFO,Core] Finished initializing 8 devices
+2018-07-22T14:20:50.785556 tid11028 [IFO,Core] Default camera set to Andor
+2018-07-22T14:20:50.787558 tid11028 [IFO,Core] Did update system state cache
+2018-07-22T14:20:50.790561 tid11028 [IFO,App] Updating GUI; config pad = true; from cache = false
+2018-07-22T14:20:50.791061 tid11028 [IFO,App] Rebuilding config group table
+2018-07-22T14:20:50.791061 tid11028 [IFO,App] Finished rebuilding config group table
+2018-07-22T14:20:50.793063 tid11028 [IFO,Core] Did update system state cache
+2018-07-22T14:20:50.793564 tid11028 [IFO,App] Finished updating GUI
+2018-07-22T14:20:56.424671 tid11028 [IFO,dev:Andor] Started sequence acquisition: 2147483647images  at 0 ms
+2018-07-22T14:20:56.987211 tid11028 [IFO,App] Error: Coercing position count to 1
+2018-07-22T14:21:02.444452 tid11028 [IFO,App] Stop called in LiveModeTimer, first attempt
+2018-07-22T14:21:02.445453 tid11028 [IFO,dev:Andor] Stopped sequence acquisition
+2018-07-22T14:21:02.522526 tid11028 [IFO,dev:Andor] PrepareSnap();
+2018-07-22T14:21:02.967954 tid11028 [IFO,App] Waiting for timer to stop
+2018-07-22T14:21:02.968956 tid11028 [IFO,App] Finished waiting for timer to stop
+2018-07-22T14:21:02.968956 tid11028 [IFO,App] Waiting for live mode display thread
+2018-07-22T14:21:02.969957 tid11028 [IFO,App] Finished waiting for live mode display thread
+2018-07-22T14:21:13.312799 tid11028 [IFO,Core] Did unload all devices
+2018-07-22T14:21:13.312799 tid11028 [IFO,Core] System reset
+2018-07-22T14:21:13.328815 tid11028 [IFO,Core] Core session ended
