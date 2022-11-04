@@ -268,9 +268,9 @@ classdef scopeParams < matlab.mixin.SetGet & handle
         drive                   = 'E:';
         %-MICROMANAGER AND MICROSCOPE CONTROL PROPS------------------------
         %path to uManager app files
-        micromanagerPath        = 'C:\Users\muxika\Documents\MATLAB\ScopeScript-01112022\hardwareControl\binaries\Micro-Manager-1.4\';
+        micromanagerPath        = 'C:\Users\muxika\Documents\MATLAB\ScopeScript-01112022\binaries\Micro-Manager-1.4\';
         %path to uManager hardware configuration
-        configPath              = 'C:\Users\muxika\Documents\MATLAB\ScopeScript-01112022\hardwareControl\binaries\microscope_config.cfg';
+        configPath              = 'C:\Users\muxika\Documents\MATLAB\ScopeScript-01112022\binaries\microscope_config.cfg';
         bufferSize              = 1000;
         % com port for custom TTL control
         fcPiezoCircuitCOMPort   = 'COM10';    
