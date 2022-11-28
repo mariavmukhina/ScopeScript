@@ -26,11 +26,15 @@ cd 'C:\Program Files\Nikon\Ti2-SDK\bin';
 
 (4) in scopeParams.m, set the correct properties.
 
-## ScopeScript Reference
-`` scopeParams ``
+## (Incomplete) ScopeScript Reference
+
+`` scopeParams `` is a class containing all parameters for image acquisition. Define your experiment here.
 
 ### Hardware Control
 
+``  startMicroscope() `` creates µManager cmmcore object, startups the microscope and initializes other hardware
+
+`` initMicroscope() `` sets up Nikon Ti-2 microscope, LEDs and cameras, initiates Nanocube; variable `showROI` defines ROI for `executeFunctions` (z stack acquisition) and `doTimeLapse`, also `showROI` is shown in live mode executed by `livePL` and `liveBF`
 
 ### Imaging Control
 
