@@ -34,7 +34,14 @@ cd 'C:\Program Files\Nikon\Ti2-SDK\bin';
 
 ``  startMicroscope() `` creates µManager cmmcore object, startups the microscope and initializes other hardware
 
-`` initMicroscope() `` sets up Nikon Ti-2 microscope, LEDs and cameras, initiates Nanocube; variable `showROI` defines ROI for `executeFunctions` (z stack acquisition) and `doTimeLapse`, also `showROI` is shown in live mode executed by `livePL` and `liveBF`
+`` initMicroscope() `` sets up Nikon Ti-2 microscope, LEDs and cameras, initiates Nanocube; global variable `showROI` defines ROI for `executeFunctions` (z stack acquisition) and `doTimeLapse`, also `showROI` is shown in live mode executed by `livePL` and `liveBF`, the full ROI is used by default
+
+```
+``setupChannel `` sets the appropriate channel with correct energyLevel
+% setupChannel() lists all the channels available
+% setupChannel('channel',energy) sets a channel with intensity[%] = energy; the channel can be either PL or BF
+% setupChannel('channel',{energy1,energy2}) % sets a channel with multiple PL excitation bands
+```
 
 ### Imaging Control
 
