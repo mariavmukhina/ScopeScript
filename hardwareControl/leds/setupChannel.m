@@ -1,5 +1,5 @@
 function [] = setupChannel(varargin)
-%SETUPCHANNEL sets the appropriate channel with the correct energyLevel
+%SETUPCHANNEL sets the appropriate channel with correct energyLevel
 % setupChannel() lists all the channels available
 % setupChannel('channel',energy) sets a channel with intensity[%] = energy; the channel can be either PL or BF
 % setupChannel('channel',{energy1,energy2}) % sets a channel with multiple PL excitation bands

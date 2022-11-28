@@ -1,5 +1,5 @@
 function [ ] = finishExperiment()
-%finishExperiment is to be run at the end of the experiment to turn on all the LEDs
+%finishExperiment is to be run at the end of an experiment to turn off all the LEDs
 
 %holdPiezoBF keeps stage TTL constant, BF TTL constant, PL is TTL triggered
 holdPiezoBF();
