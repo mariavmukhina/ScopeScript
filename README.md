@@ -36,12 +36,15 @@ cd 'C:\Program Files\Nikon\Ti2-SDK\bin';
 
 `` initMicroscope() `` sets up Nikon Ti-2 microscope, LEDs and cameras, initiates Nanocube; global variable `showROI` defines ROI for `executeFunctions` (z stack acquisition) and `doTimeLapse`, also `showROI` is shown in live mode executed by `livePL` and `liveBF`, the full ROI is used by default
 
-```
-``setupChannel `` sets the appropriate channel with correct energyLevel
-% setupChannel() lists all the channels available
-% setupChannel('channel',energy) sets a channel with intensity[%] = energy; the channel can be either PL or BF
-% setupChannel('channel',{energy1,energy2}) % sets a channel with multiple PL excitation bands
-```
+``setupChannel `` sets the appropriate channel with correct energyLevel: ``setupChannel()`` lists all the channels available; ``setupChannel('channel',energy)`` sets a channel with intensity[%] = energy, the channel can be either PL or BF; ``setupChannel('channel',{energy1,energy2})`` sets a channel with multiple PL excitation bands; for PL channel, ``setupChannel `` also switches the filter cube 
+
+`` stageAppend `` allows to save multiple XY locations of the microscope stage alonside corresponding PFS offsets to the global variable `stageCoordinates`; the stageCoordinates list is then used to execute fcScopes (Z stacks) at the selected locations as a timeLapse; default time interval between fcScopes at different locations is 5 sec, it can also be provided as an argument, e.g. `stageAppend(10)`
+
+`` stageClear `` clears the global variable `stageCoordinates`
+
+`` waitForPFS `` checks if the PFS status is 'Locked in focus' for the time specified by N samples passing threshold, until timeout is reached; if offset is provided `waitForPFS(offset)`, then this will set the offset (focal plane) and wait for settling; PFS is switched off between 3D z stacks and `waitForPFS` is called between z stacks to ensure that PFS is ON and the focus is found
+
+`` finishExperiment `` run this function at the end of an experiment to turn off all the LEDs
 
 ### Imaging Control
 
@@ -51,18 +54,18 @@ cd 'C:\Program Files\Nikon\Ti2-SDK\bin';
 
 ### Camera Calibration
 
-Useful commands:
 
-initMicroscope           % boot up the system
+
+
 livePhase                  % run live acquisition with Dia illumination
 liveFlour                   % run live acquisition with LED illumination
 liveLaser                   % run live acquisition with laser illumination
-setupChannel            % changes pre-selected Epi and BF channels and switches filter cubes
+
 executeFunctions       % runs experiments pre-defined in fcScopeParams
 doTimeLapse             % runs time lapses of experiments pre-defined in fcScopeParams
 finishExperiment        % turns off all LEDs, run every time at the end of imaging session (after the cameras are turned off)
 
-TTL circuit has the following TTL triggers: 'AllFourTTL','ChDTTL','ChCTTL','ChBTTL','ChATTL','BrightFieldTTL','AllOnTTL'. They can be chosen in fcScopeParams. These triggers switch on/off channels. In the case of BF-illumination (ScopeLED), these triggers also allow to set up wavelength of light ('3000K';'4500K';'6500K';'Red ';'Green';'Blue'). livePhase runs with preselected channel '4300K', 1% of intensity. Epi-illuminator (CoolLED) has 16 LEDs separated in Channels A-D. Only one LED per channel and up to 4 channels can be turned on at a time. Combination of filter cube and active wavelengths in each channel has to be picked to set up epi-illumination. It can be done in setupChannel, where you can find few default recipes:
+
  
    
 case {'1-QDot'}  % put here name of filter cube, names of all filter cubes can be listed by calling function 'printAvailableFilterCubes()'
