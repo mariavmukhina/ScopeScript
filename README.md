@@ -27,6 +27,7 @@ cd 'C:\Program Files\Nikon\Ti2-SDK\bin';
 (4) in scopeParams.m, set the correct properties.
 
 ## ScopeScript Reference
+`` scopeParams ``
 
 ### Hardware Control
 
