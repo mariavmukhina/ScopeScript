@@ -36,15 +36,23 @@ cd 'C:\Program Files\Nikon\Ti2-SDK\bin';
 
 `` initMicroscope() `` sets up Nikon Ti-2 microscope, LEDs and cameras, initiates Nanocube; global variable `showROI` defines ROI for `executeFunctions` (z stack acquisition) and `doTimeLapse`, also `showROI` is shown in live mode executed by `livePL` and `liveBF`, the full ROI is used by default
 
-``setupChannel `` sets the appropriate channel with correct energyLevel: ``setupChannel()`` lists all the channels available; ``setupChannel('channel',energy)`` sets a channel with intensity[%] = energy, the channel can be either PL or BF; ``setupChannel('channel',{energy1,energy2})`` sets a channel with multiple PL excitation bands; for PL channel, ``setupChannel `` also switches the filter cube 
+``setupChannel() `` sets the appropriate channel with correct energyLevel: ``setupChannel()`` lists all the channels available; ``setupChannel('channel',energy)`` sets a channel with intensity[%] = energy, the channel can be either PL or BF; ``setupChannel('channel',{energy1,energy2})`` sets a channel with multiple PL excitation bands; for PL channel, ``setupChannel `` also switches the filter cube 
 
-`` stageAppend `` allows to save multiple XY locations of the microscope stage alonside corresponding PFS offsets to the global variable `stageCoordinates`; the stageCoordinates list is then used to execute fcScopes (Z stacks) at the selected locations as a timeLapse; default time interval between fcScopes at different locations is 5 sec, it can also be provided as an argument, e.g. `stageAppend(10)`
+`` stageAppend() `` allows to save multiple XY locations of the microscope stage alonside corresponding PFS offsets to the global variable `stageCoordinates`; the stageCoordinates list is then used to execute fcScopes (Z stacks) at the selected locations as a timeLapse; default time interval between fcScopes at different locations is 5 sec, it can also be provided as an argument, e.g. `stageAppend(10)`
 
-`` stageClear `` clears the global variable `stageCoordinates`
+`` stageClear() `` clears the global variable `stageCoordinates`
 
-`` waitForPFS `` checks if the PFS status is 'Locked in focus' for the time specified by N samples passing threshold, until timeout is reached; if offset is provided `waitForPFS(offset)`, then this will set the offset (focal plane) and wait for settling; PFS is switched off between 3D z stacks and `waitForPFS` is called between z stacks to ensure that PFS is ON and the focus is found
+`` waitForPFS() `` checks if the PFS status is 'Locked in focus' for the time specified by N samples passing threshold, until timeout is reached; if offset is provided `waitForPFS(offset)`, then this will set the offset (focal plane) and wait for settling; PFS is switched off between 3D z stacks and `waitForPFS()` is called between z stacks to ensure that PFS is ON and the focus is found; in very fast timelapses with time between two z stacks less than `waitForPFS_timeout` parameter in `scopeParams`, `waitForPFS()` can hold up the acquisition of the data, in these cases, the user can adjust `waitForPFS_timeout` to zero to basically stop `waitForPFS()` from running
 
-`` finishExperiment `` run this function at the end of an experiment to turn off all the LEDs
+`` liveStage() `` measures Z positions of the microscope stage during acquisition of one camera frame and saves them to file; also it plays sound if position of the stage changes for more than 1 µm; temporal resolution [measurements/frame] is defined by the global variable `liveStageONOFF`
+
+`` fastLiveStage() `` measures Z position of the microscope stage at the temporal resolution 1 measurement/frame
+
+`` generateWave() `` defines the motion of NanoCube along z axis during pressure application based on the parameters defined in `scopeParams`; function is called if the parameter `generateWave` is added to `function[i]` definition in `scopeParams`; `generateWave()` sends instructions to Nanocube controller; parameters for the pressure wave are defined in `scopeParams`
+
+``moveToInitialPosition() `` moves Nanocube to initial position, default is x = 50, y = 50, z = 100, otherwise parameters are read from `scopeParams`
+
+`` finishExperiment() `` turns off all the LEDs and should be run at the end of an experiment
 
 ### Imaging Control
 
