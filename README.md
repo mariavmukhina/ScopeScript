@@ -52,7 +52,7 @@ cd 'C:\Program Files\Nikon\Ti2-SDK\bin';
 
 ``moveToInitialPosition() `` moves Nanocube to initial position, default is x = 50, y = 50, z = 100, otherwise parameters are read from `scopeParams`
 
-`` finishExperiment `` turns off all the LEDs and should be run at the end of an experiment
+`` finishExperiment() `` turns off all the LEDs and should be run at the end of an experiment
 
 ### Imaging Control
 
