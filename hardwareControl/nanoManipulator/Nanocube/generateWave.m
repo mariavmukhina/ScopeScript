@@ -2,8 +2,6 @@ function [ ] = generateWave()
 %generateWave defines the motion of NanoCube along z axis during pressure application based on the parameters defined in scopeParams
 %function is called if the parameter 'generateWave' is added to function[i] definition
 %generateWave sends instructions to Nanocube controller
-%generateWave is inserted to executeFunctionGivenCommand 
-%stopWaveGenerator() is added to executeZCommand line 63
 
 global E727;
 
