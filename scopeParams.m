@@ -220,9 +220,9 @@ classdef scopeParams < matlab.mixin.SetGet & handle
         meanVariancePath        = ['cameraCalibration' filesep 'meanVariance' filesep];
         energyTitration         = 45:5:80;
 
-        % testing exposure titration
+        % testSaturation() and runPhotonTransferCalibration()
         exposureTitration       = 10:10:90;
-        energyTitrationLevel    = 1;
+        energyLevel    = 1;
         numEnergyTitrationFrames = 20000;
         fluorescenceChannel     = '5-mCherry';
         brightFieldLEDChannel   = 'Red';
