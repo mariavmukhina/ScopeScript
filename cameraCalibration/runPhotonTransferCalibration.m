@@ -6,7 +6,7 @@ function filePath = runPhotonTransferCalibration()
 
 global mmc;
 fcScope = scopeParams();
-energy = 10; % with a paper cup worn on the objective
+energy = fcScope.energyLevel; % with a paper cup worn on the objective
 numFrames = fcScope.numEnergyTitrationFrames;
 meanVariancePath = fcScope.meanVariancePath;
 byBlocksOf = fcScope.streamInBlocksOf;
@@ -38,18 +38,9 @@ setFilterCube(fluorescenceChannel);
 closeTurretShutter();
 
 display(['acquiring ' num2str(numFrames)  ' mean variance frames by blocks of ' num2str(byBlocksOf)]);
-% setExposure(fcScope.energyTitrationExposure);
+
 % do meanVariance photon transfer curve using brightfield LED
 waitForSystem();
-% for i=energies
-%     display(['measuring: energy ' num2str(i)]);
-%     filename = [filePath 'meanVariance' '_e' num2str(i)];
-%     setBrightFieldTTL(brightFieldLEDChannel,i);
-%     waitForSystem();
-%     for j = 0:byBlocksOf:numFrames
-%         writeStream(byBlocksOf,filename,j);
-%     end
-% end
 % initialize brightfield LED
 setBrightFieldTTL(brightFieldLEDChannel,energy);
 for i=1:numel(exposures)
