@@ -132,8 +132,12 @@ classdef scopeParams < matlab.mixin.SetGet & handle
 
         %-zStack feed forward recipes--------------------------------------
         % these parameters define additional stage acceleration
-        % if parameter for chosen dz step is absent then stage will be
-        % moved with a standard rate 
+        % acceleration obtained by sending triangle pulses defined by additional voltage ff1_deltaUp and ff1_deltaDown
+        % for each z stack recipe, ff1_deltaUp and ff1_deltaDown have to be determined empirically
+        % additional acceleration works only in open-loop mode of the z stage (faster but less accurate)
+        % by default, the z stage is set up to the closed-loop mode to ensure stability, additional acceleration is not used
+        % if parameter for chosen dz step is absent then stage will be moved with a standard rate 
+        
         %ff1_dz          = 300;
         %ff1_deltaUp     = 1500;
         %ff1_delayUp     = 1;
