@@ -1,5 +1,5 @@
 function filePath = testSaturation()
-%TESTSATURATION will run liveBF with maximum settings to be used by runPhotonTransferCalibration() later on to ensure that camera sensor is not saturated
+%TESTSATURATION will run live BF acquisition with maximum settings to be used by runPhotonTransferCalibration() later on to ensure that camera sensor is not saturated
 
 fcScope = scopeParams();
 exposure = max(fcScope.exposureTitration)
