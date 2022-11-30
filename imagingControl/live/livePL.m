@@ -1,7 +1,6 @@
 function [] = livePL(varargin)
 %LIVEPL runs imaging in the PL channel in a current focal plane with real-time display, data are not saved
-% PL channel can be either preselected with setupChannel or specified by
-% the arguments in varargin: livePL('1-QDot',100)
+% PL channel can be either preselected with setupChannel or specified as function input: livePL('1-QDot',100)
 
 if ~isempty(varargin)
    channel =  varargin{1};
