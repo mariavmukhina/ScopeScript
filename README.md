@@ -78,6 +78,6 @@ cd 'C:\Program Files\Nikon\Ti2-SDK\bin';
 
 ### Camera Calibration
 
-`` testSaturation() `` runs live BF acquisition with maximum settings to be used by runPhotonTransferCalibration() later on to ensure that camera sensor is not saturated
+`` testSaturation() `` runs live BF acquisition with maximum settings to be used by `runPhotonTransferCalibration` later on to ensure that camera sensor is not saturated
 
-`` runCalibration() `` executes mean variance and dark frame measurement using the parameters from scopeParams and calculates the gain, offset, and noise per pixel; !!!! BEFORE STARTING you  need to calibrate the maximum light intensity by running testSaturation() to make sure camera sensor does not saturate
+`` runCalibration() `` executes mean variance and dark frame measurement using the parameters from scopeParams and calculates the gain, offset, and noise per pixel; !!!! BEFORE STARTING you  need to calibrate the maximum light intensity by running `testSaturation` to make sure camera sensor does not saturate
