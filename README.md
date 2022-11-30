@@ -74,71 +74,10 @@ cd 'C:\Program Files\Nikon\Ti2-SDK\bin';
 
 ### Data Management
 
+`` masterFileGenerator `` is a class that globally regulates how the files generated during z stack acquisition are saved 
 
 ### Camera Calibration
 
+`` testSaturation() `` runs live BF acquisition with maximum settings to be used by runPhotonTransferCalibration() later on to ensure that camera sensor is not saturated
 
-
-
-
-doTimeLapse             % runs time lapses of experiments pre-defined in fcScopeParams
-
-
-
- 
-   
-case {'1-QDot'}  % put here name of filter cube, names of all filter cubes can be listed by calling function 'printAvailableFilterCubes()'
-        mmc.setProperty('pE4000','SelectionA',1);  % turn on all necessary channels
-        mmc.setProperty('pE4000','SelectionB',0);
-        mmc.setProperty('pE4000','SelectionC',0);
-        mmc.setProperty('pE4000','SelectionD',0);
-
-        mmc.setProperty('pE4000','ChannelA',365);  % choose the wavelength for all active channels
-
-        mmc.setProperty('pE4000','IntensityA',energy);  % turn on selection of intensity for all active channels
-        mmc.setProperty('pE4000','IntensityB',0);
-        mmc.setProperty('pE4000','IntensityC',0);
-        mmc.setProperty('pE4000','IntensityD',0);
-
-
-Next, you need to choose appropriate triggers in fcScopeParams. For the example above, you need to trigger channel A: 
-
-        setChannel1  = {{'1-QDot',100},{'4300KBrightField',2}};      % commands the scope to use the sequence of 2 different illumination modes (photoluminescence with excitation in QDot channel and brightfield with illumination with 4300K light)
-        function1    = {'takeA3DStack',{'zStack1','ChATTL','zStack1','BrightFieldTTL'}};   % defines parameters of stacks for both illumination modes (stacks are taken in sequence)
-        timePoints1  = 0:10:60; % defines parameters of the time lapse delay[sec]:take stack every [sec]:for [sec]
-        exposure1    = 100;
-
-The following line defines which recipe to run:
-        executeOnly = [1];%[8,4,3,1];
-
-Note that z steps in time-lapses are defined in DAC units, not nm. 
-
-        % z step is defined in DAC units, not nanometers
-        %-zStack recipes---------------------------------------------------
-        zStack1_N   = 11;
-        zStack1_dz  = 500;
-        zStack1_z0  = 0;
-
-PI piezo stage was not calibrated to get the conversion factor, but the following ratio can be used as a guide: 
-
-        /* writes 2's complement value to the 16 bit dac
-        useful numbers:
-        0V = -32768   // 65536 range corresponds to the full range of the stage (220 um)
-        5V = 0
-        10V = 32767
-        250nm step is 75 units (74.473) NB: from an experiment 100 nm is 35 units
-        */
-
-Code allows to additionally accelerate the piezo stage. It can be done by sending triangle pulses:
-
-
-
-Acceleration is defined by additional voltage ff1_deltaUp and ff1_deltaDown. For each step size they have to be determined empirically. If these parameters are absent for pre-selected step size, z stack will be taken without acceleration.
-
-        ff1_dz          = 300;
-        ff1_deltaUp     = 2230;
-        ff1_delayUp     = 1;
-        ff1_deltaDown   = -1000;
-        ff1_delayDown   = 1;
-
-It was found that additional acceleration works only in open-loop mode (faster but less accurate). I could not find a parameters that would allow to decrease acquisition time and keep the stage stable. By default, the stage is set up to slightly slower closed-loop mode to ensure stability, additional acceleration is not used. 
+`` runCalibration() `` executes mean variance and dark frame measurement using the parameters from scopeParams and calculates the gain, offset, and noise per pixel; !!!! BEFORE STARTING you  need to calibrate the maximum light intensity by running testSaturation() to make sure camera sensor does not saturate
