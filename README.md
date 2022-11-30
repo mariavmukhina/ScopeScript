@@ -56,6 +56,13 @@ cd 'C:\Program Files\Nikon\Ti2-SDK\bin';
 
 ### Imaging Control
 
+`` liveBF() `` runs imaging in the BF channel in a current focal plane with real-time display, data are not saved; BF channel can be either preselected with setupChannel or specified as function input: liveBF('GreenBrightField',50); if the channel parameters are provided as an input and function `executeFunctions` is called during real-time streaming (see `doLive`), the scope will return to this predefined channel once `executeFunctions` is completed
+
+`` livePL() `` runs imaging in the PL channel in a current focal plane with real-time display, data are not saved; PL channel can be either preselected with setupChannel or specified as function input: livePL('1-QDot',100); if the channel parameters are provided as an input and function `executeFunctions` is called during real-time streaming (see `doLive`), the scope will return to this predefined channel once `executeFunctions` is completed
+
+`` doLive() `` starts the stream from the camera and displays it in Matlab figure; keyboard 'q' -> quits; keyboard 'p' -> pauses; keyboard 'e' -> executes function predefined in `scopeParams` by `executeOnly`; if channel and energy are provided as arguments `doLive({channel,energy})`, after the function execution, the scope returns to the channel defined by these arguments; keyboard 's' -> saves XY coordinates to the global variable `stageCoordinates` (see `stageAppend`); keyboard '1-9' -> moves to position in `stageCoordinates` list
+
+
 
 ### Data Management
 
