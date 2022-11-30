@@ -62,6 +62,13 @@ cd 'C:\Program Files\Nikon\Ti2-SDK\bin';
 
 `` doLive() `` starts the stream from the camera and displays it in Matlab figure; keyboard 'q' -> quits; keyboard 'p' -> pauses; keyboard 'e' -> executes function predefined in `scopeParams` by `executeOnly`; if channel and energy are provided as arguments `doLive({channel,energy})`, after the function execution, the scope returns to the channel defined by these arguments; keyboard 's' -> saves XY coordinates to the global variable `stageCoordinates` (see `stageAppend`); keyboard '1-9' -> moves to position in `stageCoordinates` list
 
+`` executeFunctions() `` takes a single z stack defined by `function[i]` in `scopeParams`; if called without arguments, it executes the functions specified by `executeOnly` in `scopeParams`; the function/s to execute can be provided by calling `executeFunctions(fcScope)` or `executeFunctions({fcScope1,fcScope2})`, where `fcScope` is a number of `function[i]` from `scopeParams`
+
+`` executeZCommand() `` acquires N frames specified `function[i]` in `scopeParams`, then parses the data to `zCommandOutput`; also this function cotrols Nikon PFS during z stack acquisition; if the global variable `liveStageONOFF = 1`, it also records Z positions of the stage (see `liveStage`)
+
+`` executeFunctionGivenCommand() `` initiates execution of the function specified in `function[i]` in `scopeParams`; by default, all `function[i]`s invoke `takeA3DStack`; however, `executeFunctionGivenCommand()` is where additional functions can be invoked if they are added to the definition of `function[i]`; the current version of `executeFunctionGivenCommand()` allows to execute `generateWave` in parallel with `takeA3DStack` (see `function[10]` in `scopeParams`)
+
+
 
 
 ### Data Management
