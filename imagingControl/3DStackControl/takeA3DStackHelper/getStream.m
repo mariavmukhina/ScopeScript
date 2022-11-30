@@ -17,7 +17,11 @@ if liveStageONOFF == 1
     ZStagePositions = zeros(n,1);
     ZtimeStamps = zeros(n,6);
 elseif liveStageONOFF > 1
-    imagingInterval = str2double(mmc.getProperty(mmc.getCameraDevice,'Exposure'))+ str2double(mmc.getProperty(mmc.getCameraDevice,'ReadoutTime'));
+    if mmc.getCameraDevice == 'Andor'
+    	imagingInterval = str2double(mmc.getProperty(mmc.getCameraDevice,'ActualInterval-ms'));
+    elseif mmc.getCameraDevice == 'C13440'
+    	imagingInterval = str2double(mmc.getProperty(mmc.getCameraDevice,'Exposure'))+ str2double(mmc.getProperty(mmc.getCameraDevice,'ReadoutTime'));
+    end
 end
 
 while(mmc.getRemainingImageCount() > 0 || ...
@@ -25,11 +29,7 @@ while(mmc.getRemainingImageCount() > 0 || ...
     if (mmc.getRemainingImageCount() > 0)
             %track z stage position during aquisition with resolution more than 1 recording per frame
             if liveStageONOFF > 1
-                if mmc.getCameraDevice == 'Andor'
-                   liveStage(str2double(mmc.getProperty(mmc.getCameraDevice,'ActualInterval-ms')),j);
-                elseif mmc.getCameraDevice == 'C13440'
-                   liveStage(imagingInterval,j);
-                end
+                liveStage(imagingInterval,j);
             end
             j = j+1;
             if liveStageONOFF == 1
