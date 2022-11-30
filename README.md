@@ -32,11 +32,11 @@ cd 'C:\Program Files\Nikon\Ti2-SDK\bin';
 
 ### Hardware Control
 
-``  startMicroscope() `` creates µManager cmmcore object, startups the microscope and initializes other hardware
+`` startMicroscope() `` creates µManager cmmcore object, startups the microscope and initializes other hardware
 
 `` initMicroscope() `` sets up Nikon Ti-2 microscope, LEDs and cameras, initiates Nanocube; global variable `showROI` defines ROI for `executeFunctions` (z stack acquisition) and `doTimeLapse`, also `showROI` is shown in live mode executed by `livePL` and `liveBF`, the full ROI is used by default
 
-``setupChannel() `` sets the appropriate channel with correct energyLevel: ``setupChannel()`` lists all the channels available; ``setupChannel('channel',energy)`` sets a channel with intensity[%] = energy, the channel can be either PL or BF; ``setupChannel('channel',{energy1,energy2})`` sets a channel with multiple PL excitation bands; for PL channel, ``setupChannel `` also switches the filter cube 
+`` setupChannel() `` sets the appropriate channel with correct energyLevel: `setupChannel()` lists all the channels available; `setupChannel('channel',energy)` sets a channel with intensity[%] = energy, the channel can be either PL or BF; `setupChannel('channel',{energy1,energy2})` sets a channel with multiple PL excitation bands; for PL channel, `setupChannel` also switches the filter cube; `setupChannel` sets the wavelength and intensity for the channel, LED is turned on later on in acquisition by sending TTL trigger; all BF channels have the same `BrightFieldTTL` trigger; PL channels have different triggers depending on their wavelength (see `scopeParams` and manual for CoolLED), also multiple wavelengths can be triggered at once
 
 `` stageAppend() `` allows to save multiple XY locations of the microscope stage alonside corresponding PFS offsets to the global variable `stageCoordinates`; the stageCoordinates list is then used to execute fcScopes (Z stacks) at the selected locations as a timeLapse; default time interval between fcScopes at different locations is 5 sec, it can also be provided as an argument, e.g. `stageAppend(10)`
 
@@ -52,7 +52,7 @@ cd 'C:\Program Files\Nikon\Ti2-SDK\bin';
 
 ``moveToInitialPosition() `` moves Nanocube to initial position, default is x = 50, y = 50, z = 100, otherwise parameters are read from `scopeParams`
 
-`` finishExperiment() `` turns off all the LEDs and should be run at the end of an experiment
+`` finishExperiment() `` turns off all the LEDs; should be run at the end of an imaging sessions after all cameras are turned off
 
 ### Imaging Control
 
@@ -62,14 +62,15 @@ cd 'C:\Program Files\Nikon\Ti2-SDK\bin';
 
 `` doLive() `` starts the stream from the camera and displays it in Matlab figure; keyboard 'q' -> quits; keyboard 'p' -> pauses; keyboard 'e' -> executes function predefined in `scopeParams` by `executeOnly`; if channel and energy are provided as arguments `doLive({channel,energy})`, after the function execution, the scope returns to the channel defined by these arguments; keyboard 's' -> saves XY coordinates to the global variable `stageCoordinates` (see `stageAppend`); keyboard '1-9' -> moves to position in `stageCoordinates` list
 
-`` executeFunctions() `` takes a single z stack defined by `function[i]` in `scopeParams`; if called without arguments, it executes the functions specified by `executeOnly` in `scopeParams`; the function/s to execute can be provided by calling `executeFunctions(fcScope)` or `executeFunctions({fcScope1,fcScope2})`, where `fcScope` is a number of `function[i]` from `scopeParams`
+`` executeFunctions() `` takes a single z stack defined by `function[i]` in `scopeParams`; if called without arguments, it executes the functions specified by `executeOnly` in `scopeParams`; the function/s to execute can be provided by calling `executeFunctions(fcScope)` or `executeFunctions({fcScope1,fcScope2})`, where `fcScope` is a number of `function[i]` from `scopeParams`; if the global variable `stageCoordinates` is not empty, z stacks will be taken in each XY location (see `stageAppend`); for multiple fcScopes, the order will be (fcScope1(XY1),fcScope1(XY2),fcScope2(XY1),fcScope2(XY2))
 
 `` executeZCommand() `` acquires N frames specified `function[i]` in `scopeParams`, then parses the data to `zCommandOutput`; also this function cotrols Nikon PFS during z stack acquisition; if the global variable `liveStageONOFF = 1`, it also records Z positions of the stage (see `liveStage`)
 
 `` executeFunctionGivenCommand() `` initiates execution of the function specified in `function[i]` in `scopeParams`; by default, all `function[i]`s invoke `takeA3DStack`; however, `executeFunctionGivenCommand()` is where additional functions can be invoked if they are added to the definition of `function[i]`; the current version of `executeFunctionGivenCommand()` allows to execute `generateWave` in parallel with `takeA3DStack` (see `function[10]` in `scopeParams`)
 
+`` doTimeLapse() `` takes z stacks defined by `function[i]` with intervals set by `timePoints[i]` in `scopeParams`; if called without arguments, it executes the functions specified by `executeOnly` in `scopeParams`; the function/s to execute can be provided by calling `doTimeLapse(fcScope)` or `doTimeLapse({fcScope1,fcScope2})`, where `fcScope` is a number of `function[i]` from `scopeParams`; if the global variable `stageCoordinates` is not empty, z stacks will be taken in each XY location (see `stageAppend`); for multiple fcScopes, the order will be timePoint1(fcScope1(XY1),fcScope1(XY2),fcScope2(XY1),fcScope2(XY2)), timePoint2(...)
 
-
+`` stopTimeLapse() `` stops the timelapse by deleting the timer set by `doTimeLapse`; for very fast timelapses, in addition to calling `stopTimeLapse`, pressing pause button in Matlab interface may be necessary to stop the timelapse
 
 ### Data Management
 
@@ -79,13 +80,9 @@ cd 'C:\Program Files\Nikon\Ti2-SDK\bin';
 
 
 
-livePhase                  % run live acquisition with Dia illumination
-liveFlour                   % run live acquisition with LED illumination
-liveLaser                   % run live acquisition with laser illumination
 
-executeFunctions       % runs experiments pre-defined in fcScopeParams
 doTimeLapse             % runs time lapses of experiments pre-defined in fcScopeParams
-finishExperiment        % turns off all LEDs, run every time at the end of imaging session (after the cameras are turned off)
+
 
 
  
