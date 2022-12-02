@@ -12,7 +12,6 @@ I inhereted the first version of the package from Frederick Chang, a former PhD 
 ### Kleckner Lab Acknowledgement
 
 Please acknowledge the Kleckner Lab in your publications. An appropriate wording would be:
-
 "The microscope control software was provided by the laboratory of Nancy Kleckner at Harvard University, funded in part by National Institutes of Health (NIH) grant R35GM136322."
 
 ------------------
