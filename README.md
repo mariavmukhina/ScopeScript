@@ -9,7 +9,7 @@ You can email me at mmukhina@fas.harvard.edu, or raise a support [issue](https:/
 
 I inhereted the first version of the package from Frederick Chang, a former PhD student in Kleckner Lab at Harvard University.
 
-## Kleckner Lab Acknowledgement
+### Kleckner Lab Acknowledgement
 
 Please acknowledge the Kleckner Lab in your publications. An appropriate wording would be:
 
