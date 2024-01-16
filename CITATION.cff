@@ -1,0 +1,34 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  ScopeScript: Fast Matlab Microscope with Custom Hardware
+  Controller
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Maria
+    family-names: Mukhina
+    email: mukhina@umd.edu
+    affiliation: Harvard University
+    orcid: 'https://orcid.org/0000-0001-9656-1221'
+  - given-names: Frederick
+    family-names: Chang
+    affiliation: Havard University
+  - given-names: Nancy
+    family-names: Kleckner
+    affiliation: Harvard University
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.10516520
+repository-code: 'https://github.com/mariavmukhina/ScopeScript'
+keywords:
+  - microscope-control
+  - matlab
+  - micro-manager
+  - nikon-ti2
+  - microscope-hardware-controller
+license: GPL-3.0
